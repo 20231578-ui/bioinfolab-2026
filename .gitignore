@@ -1,0 +1,28 @@
+# 시퀀싱 데이터는 용량이 커서 저장소에 올리지 않는다.
+# 필요할 때마다 wget으로 다시 내려받는다.
+*.fastq
+*.fq
+*.fastq.gz
+*.fq.gz
+*.sra
+
+# 조립과 주석 결과 폴더도 용량이 크다.
+shovill_out/
+shovill_*_out/
+spades_*_out/
+prokka_out/
+prokka_*_out/
+flye_out/
+
+# FastQC 보고서
+*_fastqc.html
+*_fastqc.zip
+
+# 파이썬
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# 운영체제
+.DS_Store
+Thumbs.db

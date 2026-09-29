@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+
+echo "Project name: Hello"
+echo "Bye!"

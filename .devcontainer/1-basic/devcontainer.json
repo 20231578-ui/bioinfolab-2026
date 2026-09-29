@@ -1,0 +1,30 @@
+{
+  // OWNER 를 본인 GitHub 계정 이름(소문자)으로 바꾼다.
+  "name": "1. 기본 (02~07주차)",
+  "image": "ghcr.io/goshng/bioinfolab:basic",
+
+  "remoteEnv": {
+    "MYHOME": "${containerWorkspaceFolder}"
+  },
+
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python"],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "files.autoSave": "afterDelay",
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+        "editor.renderWhitespace": "boundary"
+      }
+    }
+  },
+
+  "postCreateCommand": "bash .devcontainer/check.sh",
+
+  "hostRequirements": {
+    "cpus": 2,
+    "memory": "8gb",
+    "storage": "32gb"
+  }
+}
