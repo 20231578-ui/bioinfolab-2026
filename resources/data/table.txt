@@ -1,3 +1,0 @@
-banana 2 85
-strawberry 3 72
-apple 11 98
