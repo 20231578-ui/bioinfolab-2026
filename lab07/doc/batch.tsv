@@ -1,0 +1,4 @@
+file	count	total	mean_gc
+data/seqs2.fasta	2	8	0.5
+data/seqs.fasta	3	67	0.5074626865671642
+data/lower.fasta	2	20	0.65
