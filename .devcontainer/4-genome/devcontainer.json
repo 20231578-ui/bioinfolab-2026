@@ -1,7 +1,7 @@
 {
   // OWNER 를 본인 GitHub 계정 이름(소문자)으로 바꾼다.
   "name": "4. 유전체 (10~11주차)",
-  "image": "ghcr.io/goshng/bioinfolab:genome",
+  "image": "ghcr.io/20231578-ui/bioinfolab:genome",
 
   "remoteEnv": {
     "MYHOME": "${containerWorkspaceFolder}"

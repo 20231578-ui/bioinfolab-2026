@@ -1,7 +1,7 @@
 {
   // OWNER 를 본인 GitHub 계정 이름(소문자)으로 바꾼다.
   "name": "2. conda 실습",
-  "image": "ghcr.io/goshng/bioinfolab:conda",
+  "image": "ghcr.io/20231578-ui/bioinfolab:conda",
 
   "remoteEnv": {
     "MYHOME": "${containerWorkspaceFolder}"
