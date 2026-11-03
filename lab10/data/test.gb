@@ -1,0 +1,82 @@
+LOCUS       KU739560                1408 bp    DNA     linear   PLN 04-APR-2016
+DEFINITION  Arabidopsis thaliana voucher WIS:J.C. Hall s.n.
+            ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit
+            (rbcL) gene, partial cds; chloroplast.
+ACCESSION   KU739560
+VERSION     KU739560.1
+KEYWORDS    .
+SOURCE      chloroplast Arabidopsis thaliana (thale cress)
+  ORGANISM  Arabidopsis thaliana
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; malvids; Brassicales; Brassicaceae;
+            Camelineae; Arabidopsis.
+REFERENCE   1  (bases 1 to 1408)
+  AUTHORS   Cardinal-McTeague,W.M., Sytsma,K.J. and Hall,J.C.
+  TITLE     Biogeography and diversification of Brassicales: A 103million year
+            tale
+  JOURNAL   Mol. Phylogenet. Evol. 99, 204-224 (2016)
+   PUBMED   26993763
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1408)
+  AUTHORS   Cardinal-McTeague,W.M., Sytsma,K.J. and Hall,J.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-FEB-2016) Biological Sciences, University of Alberta,
+            CW 405 Biological Sciences Building, Edmonton, Alberta T6G 2E9,
+            Canada
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: Sequencher v. 4.8
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1408
+                     /organism="Arabidopsis thaliana"
+                     /organelle="plastid:chloroplast"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="WIS:J.C. Hall s.n."
+                     /db_xref="taxon:3702"
+     gene            <1..>1408
+                     /gene="rbcL"
+     CDS             <1..>1408
+                     /gene="rbcL"
+                     /codon_start=2
+                     /transl_table=11
+                     /product="ribulose-1,5-bisphosphate carboxylase/oxygenase
+                     large subunit"
+                     /protein_id="AMR44347.1"
+                     /translation="KASVGFKAGVKEYKLTYYTPEYETKDTDILAAFRVTPQPGVPPE
+                     EAGAAVAAESSTGTWTTVWTDGLTSLDRYKGRCYHIEPVPGEETQFIAYVAYPLDLFE
+                     EGSVTNMFTSIVGNVFGFKALAALRLEDLRIPPAYTKTFQGPPHGIQVERDKLNKYGR
+                     PLLGCTIKPKLGLSAKNYGRAVYECLRGGLDFTKDDENVNSQPFMRWRDRFLFCAEAI
+                     YKSQAETGEIKGHYLNATAGTCEEMIKRAVFARELGVPIVMHDYLTGGFTANTSLSHY
+                     CRDNGLLLHIHRAMHAVIDRQKNHGMHFRVLAKALRLSGGDHIHAGTVVGKLEGDRES
+                     TLGFVDLLRDDYVEKDRSRGIFFTQDWVSLPGVLPVASGGIHVWHMPALTEIFGDDSV
+                     LQFGGGTLGHPWGNAPGAVANRVALEACVQARNEGRDLAVEGNEIIREACKWSPELAA
+                     ACEVWKEITFNFPTIDKLD"
+ORIGIN      
+        1 taaagcaagt gttgggttca aagctggtgt taaagagtat aaattgactt actatactcc
+       61 tgaatatgaa accaaggata ctgatatctt ggcagcattc cgagtaactc ctcaacctgg
+      121 agttccacct gaagaagcag gggctgcggt agctgctgaa tcttctactg gtacatggac
+      181 aactgtgtgg accgatgggc ttaccagcct tgatcgttac aaaggacgat gctaccacat
+      241 cgagcccgtt ccaggagaag aaactcaatt tattgcgtat gtagcttatc ccttagacct
+      301 ttttgaagaa ggttcggtta ctaacatgtt tacctcgatt gtgggtaatg tatttgggtt
+      361 caaagccctg gctgctctac gtctagagga tctgcgaatc cctcctgctt atactaaaac
+      421 tttccaagga ccacctcatg gtatccaagt tgaaagagat aaattgaaca agtatggacg
+      481 tcccctatta ggatgtacta ttaaaccaaa attggggtta tccgctaaaa actatggtag
+      541 agcagtttat gaatgtctac gtggtggact tgattttacc aaagatgatg agaatgtgaa
+      601 ctcccaacca tttatgcgtt ggagagaccg tttcttattt tgtgccgaag ctatttataa
+      661 atcacaggct gaaacaggtg aaatcaaagg acattatttg aatgctactg cgggtacatg
+      721 cgaagaaatg atcaaaagag ctgtatttgc cagagaattg ggagttccta tcgtaatgca
+      781 tgactactta acagggggat tcactgcaaa tactagtttg tctcattatt gccgagataa
+      841 tggcctactt cttcacatcc accgtgcaat gcacgctgtt attgatagac agaagaatca
+      901 tggtatgcac ttccgtgtac tagctaaagc tttacgtcta tctggtggag atcatattca
+      961 cgcgggtaca gtagtaggta aacttgaagg agacagggag tcaactttgg gctttgttga
+     1021 tttactgcgc gatgattatg ttgaaaaaga tcgaagccgc ggtatctttt tcactcaaga
+     1081 ttgggtctca ctaccaggtg ttctgcctgt ggcttcaggg ggtattcacg tttggcatat
+     1141 gcctgctttg accgagatct ttggagatga ttctgtacta caattcggtg gaggaacttt
+     1201 aggccaccct tggggaaatg caccgggtgc cgtagccaac cgagtagctc tggaagcatg
+     1261 tgtacaagct cgtaatgagg gacgtgatct tgcagtcgag ggtaatgaaa ttatccgtga
+     1321 agcttgcaaa tggagtcctg aactagctgc tgcttgtgaa gtatggaaag agatcacatt
+     1381 taacttccca accatcgata aattagat
+//
+

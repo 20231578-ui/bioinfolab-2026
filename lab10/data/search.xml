@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE eSearchResult PUBLIC "-//NLM//DTD esearch 20060628//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20060628/esearch.dtd">
+<eSearchResult><Count>5</Count><RetMax>5</RetMax><RetStart>0</RetStart><IdList>
+<Id>2291599618</Id>
+<Id>1009024838</Id>
+<Id>599079576</Id>
+<Id>817991666</Id>
+<Id>665516861</Id>
+</IdList><TranslationSet><Translation>     <From>Arabidopsis thaliana[Organism]</From>     <To>"Arabidopsis thaliana"[Organism]</To>    </Translation></TranslationSet><TranslationStack>   <TermSet>    <Term>rbcL[Gene]</Term>    <Field>Gene</Field>    <Count>406345</Count>    <Explode>N</Explode>   </TermSet>   <TermSet>    <Term>"Arabidopsis thaliana"[Organism]</Term>    <Field>Organism</Field>    <Count>2706800</Count>    <Explode>Y</Explode>   </TermSet>   <OP>AND</OP>   <TermSet>    <Term>00000001300[SLEN]</Term>    <Field>SLEN</Field>    <Count>0</Count>    <Explode>N</Explode>   </TermSet>   <TermSet>    <Term>00000001500[SLEN]</Term>    <Field>SLEN</Field>    <Count>0</Count>    <Explode>N</Explode>   </TermSet>   <OP>RANGE</OP>   <OP>AND</OP>  </TranslationStack><QueryTranslation>rbcL[Gene] AND "Arabidopsis thaliana"[Organism] AND 00000001300[SLEN] : 00000001500[SLEN]</QueryTranslation></eSearchResult>
