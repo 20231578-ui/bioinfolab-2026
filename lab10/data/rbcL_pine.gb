@@ -1,0 +1,73 @@
+LOCUS       JQ512595                1428 bp    DNA     linear   PLN 14-MAY-2012
+DEFINITION  Pinus thunbergii isolate PDBK2009-0269 ribulose-1,5-bisphosphate
+            carboxylase/oxygenase large subunit (rbcL) gene, complete cds;
+            chloroplast.
+ACCESSION   JQ512595
+VERSION     JQ512595.1
+KEYWORDS    .
+SOURCE      chloroplast Pinus thunbergii (Japanese black pine)
+  ORGANISM  Pinus thunbergii
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Pinopsida; Pinidae; Conifers I; Pinales; Pinaceae;
+            Pinus; Pinus subgen. Pinus.
+REFERENCE   1  (bases 1 to 1428)
+  AUTHORS   Shin,H.W. and Kim,K.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-JAN-2012) School of Life Sciences and Biotechnology,
+            Korea University, Anamdong-5-ga-1, Seungbukgu, Seoul 136-701, Korea
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: Sequencher v. 4.8
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1428
+                     /organism="Pinus thunbergii"
+                     /organelle="plastid:chloroplast"
+                     /mol_type="genomic DNA"
+                     /isolate="PDBK2009-0269"
+                     /db_xref="taxon:3350"
+     gene            1..1428
+                     /gene="rbcL"
+     CDS             1..1428
+                     /gene="rbcL"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribulose-1,5-bisphosphate carboxylase/oxygenase
+                     large subunit"
+                     /protein_id="AFJ39103.1"
+                     /translation="MSPQTETKASVGFKAGVKDYRLTYYTPEYQTKDTDILAAFRVTP
+                     QPGVPPEEAGAAVAAESSTGTWTTVWTDGLTSLDRYKGRCYDIEPVPGEETQFIAYVA
+                     YPLDLFEEGSVTNLFTSIVGNVFGFKALRALRLEDLRIPPSYSKTFQGPPHGIQVERD
+                     KLNKYGRPLLGCTIKPKLGLSAKNYGRAVYECLRGGLDFTKDDENVNSQPFMRWRDRF
+                     VFCAEALNKAQAETGEIKGHYLNATAGTCEEMMKRAIFARELGVPIVMHDYLTGGFTA
+                     NTSLAHYCRDNGLLLHIHRAMHAVIDRQRNHGMHFRVLAKALRMSGGDHIHAGTVVGK
+                     LEGERDVTLGFVDLLRDDFIEKDRSRGIYFTQDWVSMPGVLPVASGGIHVWHMPALTE
+                     IFGDDSVLQFGGGTLGHPWGNAPGAVANRVALEACVQARNEGRDLAREGNEVIREACK
+                     WSPELAAACEIWKEIKFEFDVIDRL"
+ORIGIN      
+        1 atgtcaccac aaacagaaac taaagctagt gtcggattca aagctggtgt taaagattac
+       61 agattaactt attatactcc tgaatatcag accaaagata cagatatctt ggcagcattc
+      121 cgagtaactc ctcaacccgg ggtgccacct gaagaagcgg gagcagcagt agctgctgaa
+      181 tcttccaccg gtacatggac cactgtttgg accgatggac ttactagtct cgatcgttac
+      241 aaggggcgat gctatgacat cgagcccgtt cctggagagg agactcaatt tattgcctat
+      301 gtagcttacc ccttagacct tttcgaagaa ggttctgtta ctaacttgtt cacttccatt
+      361 gtaggtaatg tatttggatt caaggcctta cgggctctac gtttggaaga tttgcggatt
+      421 cccccttctt attccaaaac ttttcagggt ccacctcatg gtatccaagt tgaaagagat
+      481 aaattgaaca aatatggtcg tcctttattg ggatgtacta tcaaaccaaa attgggtcta
+      541 tcagccaaaa actatggtag agcagtttac gaatgtctcc gtggtggact cgattttact
+      601 aaggatgatg agaacgtaaa ttcccaacca ttcatgcgct ggagagatcg ttttgtcttt
+      661 tgtgcggaag cccttaataa ggctcaggct gagacgggtg aaattaaggg acattatttg
+      721 aatgctactg caggtacatg tgaagaaatg atgaaaaggg caatatttgc aagagaattg
+      781 ggagttccta tcgttatgca tgactacctg acgggaggtt ttaccgcaaa tacttctttg
+      841 gctcattatt gccgagacaa cggcctactt cttcacattc accgcgcgat gcatgcagtt
+      901 attgacagac aaagaaatca tggtatgcat ttccgggtac tggctaaagc attgcgtatg
+      961 tccggtggag atcatattca cgccggtact gtagtaggta aacttgaagg tgaacgagac
+     1021 gtaactttag ggtttgttga tctactgcgt gatgatttta tcgaaaaaga tcgaagtcgt
+     1081 ggtatttact tcactcaaga ttgggtatct atgccaggtg ttctgcccgt agcttcagga
+     1141 ggtattcacg tttggcatat gcctgctctg accgagatct ttggggatga ttccgtacta
+     1201 cagtttggtg ggggaacttt gggacatcct tggggaaatg cacctggtgc agtagctaat
+     1261 cgggttgctc tagaagcttg tgtacaagct cgtaatgaag gacgtgatct tgctcgtgaa
+     1321 ggtaatgaag tgatccgtga agcttgtaaa tggagtcctg aactagctgc tgcttgtgaa
+     1381 atatggaagg agatcaaatt tgaatttgat gtgattgatc gcttgtaa
+//
+

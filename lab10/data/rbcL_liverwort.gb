@@ -1,0 +1,78 @@
+LOCUS       LC536762                1399 bp    DNA     linear   PLN 08-APR-2026
+DEFINITION  Marchantia polymorpha subsp. ruderalis HIRO:T.-X. Zheng 385
+            chloroplast rbcL gene for ribulose 1,5-bisphosphate
+            carboxylase/oxygenase large subunit, partial cds.
+ACCESSION   LC536762
+VERSION     LC536762.1
+DBLINK      BioProject: PRJDB13149
+KEYWORDS    .
+SOURCE      chloroplast Marchantia polymorpha subsp. ruderalis
+  ORGANISM  Marchantia polymorpha subsp. ruderalis
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta;
+            Marchantiophyta; Marchantiopsida; Marchantiidae; Marchantiales;
+            Marchantiaceae; Marchantia.
+REFERENCE   1
+  AUTHORS   Zheng,T.-X., Inoue,Y. and Shimamura,M.
+  TITLE     Morphology of gemmae, an overlooked taxonomic trait in the genus
+            Marchantia L. (Marchantiaceae)
+  JOURNAL   Bryologist 123 (4), 601-610 (2020)
+  REMARK    DOI:10.1639/0007-2745-123.4.601
+REFERENCE   2  (bases 1 to 1399)
+  AUTHORS   Inoue,Y., Zheng,T.-X. and Shimamura,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-APR-2020) Contact:Yuya Inoue Hiroshima University,
+            Integrated Sciences for Life; 1-3-1 Kagamiyama, Higashi-hiroshima,
+            Hiroshima 739-8526, Japan
+FEATURES             Location/Qualifiers
+     source          1..1399
+                     /organism="Marchantia polymorpha subsp. ruderalis"
+                     /organelle="plastid:chloroplast"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="HIRO:T.-X. Zheng 385"
+                     /db_xref="taxon:1480154"
+                     /geo_loc_name="Japan: Tokushima, Yoshinogawa"
+     gene            <1..1399
+                     /gene="rbcL"
+     CDS             <1..1399
+                     /gene="rbcL"
+                     /codon_start=2
+                     /transl_table=11
+                     /product="ribulose-1,5-bisphosphate carboxylase/oxygenase
+                     large subunit"
+                     /protein_id="BCD92759.1"
+                     /translation="VGFKAGVKDYRLNYYTPDYETKDTDILAAFRMTPQPGVPAEEAG
+                     AAVAAESSTGTWTTVWTDGLTNLDRYKGRCYDIDPVPGEDNQYIAYVAYPLDLFEEGS
+                     VTNMFTSIVGNVFGFKALRALRLEDLRIPPAYTKTFQGPPHGIQVERDKLNKYGRPLL
+                     GCTIKPKLGLSAKNYGRAVYECLRGGLDFTKDDENVNSQPFMRWRDRFLFVAEAIFKS
+                     QAETGEIKGHYLNATAGTCEEMLKRAACARELGVPIVMHDYLTGGFTANTTLAFYCRD
+                     NGLLLHIHRAMHAVIDRQKNHGIHFRVLAKALRMSGGDHIHAGTVVGKLEGDRNVTLG
+                     FVDLLRDDYIEKDRSRGIYFTQDWVSLPGVFPVASGGIHVWHMPALTEIFGDDSVLQF
+                     GGGTLGHPWGNAPGAVANRVSLEACVQARNEGRDLAREGNEIIREACKWSPELSAACE
+                     VWKEIKFEFDIIDTL"
+ORIGIN      
+        1 tgttggattc aaagctggtg ttaaagatta tcgattaaat tattacactc cggattatga
+       61 gaccaaggat acggatattt tagcagcatt tagaatgact cctcaacctg gagttccagc
+      121 agaagaagca ggagcagcag ttgctgctga gtcttcaact ggtacatgga ctacagtttg
+      181 gactgatggt cttactaacc ttgatcgtta taaaggtcga tgctatgata ttgaccctgt
+      241 tcctggagaa gataatcaat atattgctta tgtagcttat cctttagatt tatttgaaga
+      301 aggttctgtt acaaatatgt ttacttcaat tgtaggtaat gtatttgggt ttaaagcttt
+      361 aagagcgtta cgtcttgaag atttaagaat tcctccagct tacacaaaaa ctttccaagg
+      421 tcctcctcat ggtattcaag ttgagagaga taaattaaac aaatatggtc gtcctttatt
+      481 aggatgtact attaaaccaa aattaggttt atctgctaaa aactatggta gagctgtata
+      541 tgaatgtctt cgtggtggac ttgattttac taaagatgat gaaaacgtaa attctcaacc
+      601 atttatgcgt tggagagatc gtttcttatt tgtagcagaa gctattttta aatctcaagc
+      661 agaaactgga gaaatcaaag gacattattt aaatgctact gcaggtacat gtgaagaaat
+      721 gctaaaaaga gcagcatgtg ctagagagtt aggtgtacca attgttatgc acgactactt
+      781 aactggtggt ttcactgcaa atactactct agctttttat tgccgtgaca atggtttact
+      841 tcttcatatt caccgtgcaa tgcatgcagt tattgataga caaaaaaatc atggtatcca
+      901 cttccgtgta ttagcaaaag ctttacgtat gtctggtgga gatcatattc acgctggtac
+      961 tgttgtaggt aaacttgaag gagaccgtaa cgtaacttta ggtttcgtag atttacttcg
+     1021 tgatgactat attgaaaaag atagaagtcg tggtatttat ttcacacaag attgggtttc
+     1081 tttacctggt gttttccctg tagcatctgg tgggatccat gtttggcata tgcctgcttt
+     1141 aactgaaatt tttggcgatg actctgtttt acaatttggt ggtggaactt taggtcatcc
+     1201 ttggggtaac gcacctggtg cagttgctaa ccgagtttcg ttagaagctt gtgtacaagc
+     1261 acgtaatgaa ggtcgtgacc ttgctcgtga aggaaatgaa attattcgtg aagcttgcaa
+     1321 atggagtcct gagttatctg ctgcttgtga agtttggaaa gaaattaaat ttgaatttga
+     1381 tattattgat actttgtaa
+//
+

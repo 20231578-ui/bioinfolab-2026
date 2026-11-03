@@ -1,0 +1,68 @@
+LOCUS       OK432498                1440 bp    DNA     linear   PLN 03-SEP-2022
+DEFINITION  UNVERIFIED: Arabidopsis thaliana ribulose-1,5-bisphosphate
+            carboxylase/oxygenase large subunit-like (rbcL) gene, partial
+            sequence; chloroplast.
+ACCESSION   OK432498
+VERSION     OK432498.1
+KEYWORDS    UNVERIFIED.
+SOURCE      chloroplast Arabidopsis thaliana (thale cress)
+  ORGANISM  Arabidopsis thaliana
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; malvids; Brassicales; Brassicaceae;
+            Camelineae; Arabidopsis.
+REFERENCE   1  (bases 1 to 1440)
+  AUTHORS   Chattopadhyay,P.
+  TITLE     Sequence of rbcL of At
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1440)
+  AUTHORS   Chattopadhyay,P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-OCT-2021) Department of Botany, MUC Women's College,
+            Burdwan, BC Road, Burdwan, West Bengal, Burdwan, Birbhum, West
+            Bengal 713104, India
+COMMENT     GenBank staff is unable to verify sequence and/or annotation
+            provided by the submitter.
+            
+            ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1440
+                     /organism="Arabidopsis thaliana"
+                     /organelle="plastid:chloroplast"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:3702"
+     gene            <1..>1440
+                     /gene="rbcL"
+     misc_feature    <1..>1440
+                     /gene="rbcL"
+                     /note="similar to ribulose-1,5-bisphosphate
+                     carboxylase/oxygenase large subunit"
+ORIGIN      
+        1 atgtcaccac aaacagagac taaagcaagt gttgggttca aagctggtgt taaagagtat
+       61 aaattgactt actatactcc tgaatatgaa accaaggata ctgatatctt ggcagcattc
+      121 cgagtaactc ctcaacctgg agttccacct gaagaagcag gggctgcggt agctgctgaa
+      181 tcttctactg gtacatggac aactgtgtgg accgatgggc ttaccagcct tgatcgttac
+      241 aaaggacgat gctaccacat cgagcccgtt ccaggagaag aaactcaatt tattgcgtat
+      301 gtagcttatc ccttagacct ttttgaagaa ggttcggtta ctaacatgtt tacctcgatt
+      361 gtgggtaatg tatttgggtt caaagccctg gctgctctac gtctagagga tctgcgaatc
+      421 cctcctgctt atactaaaac tttccaagga ccacctcatg gtatccaagt tgaaagagat
+      481 aaattgaaca agtatggacg tcccctatta ggatgtacta ttaaaccaaa attggggtta
+      541 tccgcgaaaa actatggtag agcagtttat gaatgtctac gtggtggact tgattttacc
+      601 aaagatgatg agaatgtgaa ctcccaacca tttatgcgtt ggagagaccg tttcttattt
+      661 tgtgccgaag ctatttataa atcacaggct gaaacaggtg aaatcaaagg gcattatttg
+      721 aatgctactg cgggtacatg cgaagaaatg atcaaaagag ctgtatttgc cagagaattg
+      781 ggagttccta tcgtaatgca tgactactta acagggggat tcaccgcaaa tactagtttg
+      841 tctcattatt gccgagataa tggcctactt cttcacatcc accgtgcaat gcacgctgtt
+      901 attgatagac agaagaatca tggtatgcac ttccgtgtac tagctaaagc tttacgtcta
+      961 tctggtggag atcatattca cgcgggtaca gtagtaggta aacttgaagg agacagggag
+     1021 tcaactttgg gctttgttga tttactgcgc gatgattatg ttgaaaaaga tcgaagccgc
+     1081 ggtatctttt tcactcaaga ttgggtctca ctacctggtg ttctgcctgt ggcttcaggg
+     1141 ggtattcacg tttggcatat gcctgctttg accgagatct ttggagatga ttctgtacta
+     1201 caattcggtg gaggaacttt aggccaccct tggggaaatg caccgggtgc cgtagccaac
+     1261 cgagtagctc tggaagcatg tgtacaagct cgtaatgagg gacgtgatct tgcagtcgag
+     1321 ggtaatgaaa ttatccgtga agcttgcaaa tggagtcctg aactagctgc tgcttgtgaa
+     1381 gtatggaaag agatcacatt taacttccca accatcgata aattagatgg ccaagagtag
+//
+

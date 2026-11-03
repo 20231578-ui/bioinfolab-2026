@@ -1,0 +1,77 @@
+LOCUS       KF221173                1317 bp    DNA     linear   PLN 26-JUL-2016
+DEFINITION  Ginkgo biloba ribulose-1,5-bisphosphate carboxylase/oxygenase large
+            subunit (rbcL) gene, partial cds; plastid.
+ACCESSION   KF221173
+VERSION     KF221173.1
+KEYWORDS    .
+SOURCE      plastid Ginkgo biloba (maidenhair tree)
+  ORGANISM  Ginkgo biloba
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Ginkgoidae; Ginkgoales; Ginkgoaceae; Ginkgo.
+REFERENCE   1  (bases 1 to 1317)
+  AUTHORS   Gorelick,R., Fraser,D., Zonneveld,B.J.M. and Little,D.P.
+  TITLE     Cycad (Cycadales) chromosome numbers are not correlated with genome
+            size
+  JOURNAL   Int. J. Plant Sci. 175 (9), 986-997 (2014)
+  REMARK    DOI: 10.1086/678085
+REFERENCE   2  (bases 1 to 1317)
+  AUTHORS   Gorelick,R., Fraser,D., Zonneveld,B.J.M. and Little,D.P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-JUN-2013) Cullman Program for Molecular Systematics,
+            The New York Botanical Garden, 2900 Southern Blvd, Bronx, NY 10458,
+            USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: Sequencher v. 4.10
+            Coverage              :: 2x
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1317
+                     /organism="Ginkgo biloba"
+                     /organelle="plastid"
+                     /mol_type="genomic DNA"
+                     /isolate="d915"
+                     /specimen_voucher="NY:Little and Brenner 915"
+                     /db_xref="taxon:3311"
+     gene            <1..>1317
+                     /gene="rbcL"
+     CDS             <1..>1317
+                     /gene="rbcL"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribulose-1,5-bisphosphate carboxylase/oxygenase
+                     large subunit"
+                     /protein_id="AJD08183.1"
+                     /translation="GFKAGVKDYRLTYYTPEYQTKDTDILAAFRVTPQPGVPPEEAGA
+                     AVAAESSTGTWTTVWTDGLTSLDRYKGRCYDIEPVPGEENQFIAYVAYPLDLFEEGSV
+                     TNLFTSIVGNVFGFKALRALRLEDLRIPPAYSKTFQGPPHGIQVERDKLNKYGRPLLG
+                     CTIKPKLGLSAKNYGRAVYECLRGGLDFTKDDENVNSQPFMRWRDRFLFCAEAIYKAQ
+                     TETGEIKGHYLNATAGTCEEMMKRAVFARELGVPIVMHDYLTGGFTANTSLAHYCRDN
+                     GLLLHIHRAMHAVIDRQRNHGMHFRVLAKALRMSGGDHIHAGTVVGKLEGEREVTLGF
+                     VDLLRDDFIEKDRSRGIYFTQDWVSMPGVLPVASGGIHVWHMPALTEIFGDDSVLQFG
+                     GGTLGHPWGNAPGAVANRVALEACVQARNEGRDLAREGNEVIREASK"
+ORIGIN      
+        1 ggatttaaag ctggtgttaa agattacaga ttgacttatt atactcctga atatcaaacc
+       61 aaagatactg atatcttggc agcattccga gtaactcctc aacctggagt gccacctgag
+      121 gaagcgggag ctgcagtagc tgccgaatct tccactggta catggaccac tgtttggacc
+      181 gatggactta ccagtcttga tcgttacaag ggaagatgct atgacatcga gcccgttcct
+      241 ggggaggaaa atcaatttat tgcctatgta gcttaccctt tggatctttt cgaggaaggt
+      301 tctgttacta acctgttcac ttccattgta gggaatgtat ttggattcaa agccctacga
+      361 gctctacgtc tggaagatct gcgaattcct cctgcttatt ccaaaacttt ccagggtcca
+      421 cctcatggta tccaagttga aagggataaa ttgaataaat atggccgtcc cctattggga
+      481 tgtactatca agccaaaatt gggtttatct gccaaaaatt atggtagagc agtttacgaa
+      541 tgtcttcgtg gtggacttga ttttactaaa gatgatgaga acgtaaattc ccaaccattc
+      601 atgcgctgga gagatcgttt cttgttttgt gcagaagcaa tttataaagc tcagaccgag
+      661 acgggtgaaa ttaagggaca ttacttgaat gctactgcag gtacatgcga agaaatgatg
+      721 aaaagggcag tatttgccag agaattggga gttcctatcg tcatgcatga ctatctgacg
+      781 ggaggtttta ctgcaaatac tagcttggct cattattgcc gagacaatgg cctacttctt
+      841 cacattcacc gcgcaatgca tgcagttatt gacagacaaa gaaatcatgg tatgcatttc
+      901 cgtgtactag ctaaagcatt gcgtatgtct ggtggagatc atattcacgc cggtactgta
+      961 gtaggtaaac ttgaaggaga acgagaagtc actctgggtt ttgttgatct actgcgtgat
+     1021 gattttattg aaaaagaccg aagtcgtggt atttatttca ctcaagattg ggtatctatg
+     1081 ccaggtgttc tgcccgtagc ttcagggggt attcacgtct ggcatatgcc tgctctgacc
+     1141 gagatctttg gggatgattc tgtactacag tttggtgggg gaactttggg acacccttgg
+     1201 ggaaatgcac ctggtgcagt agctaatcgg gtcgccctag aagcttgtgt acaagctcgt
+     1261 aatgaaggac gtgatcttgc tcgtgaaggt aatgaagtga tccgtgaagc tagtaaa
+//
+

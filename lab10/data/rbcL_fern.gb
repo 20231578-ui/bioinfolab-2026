@@ -1,0 +1,72 @@
+LOCUS       MW620303                1308 bp    DNA     linear   PLN 04-JAN-2022
+DEFINITION  Adiantum capillus-veneris voucher Eric Schuettpelz 1662 (MEXU, US)
+            ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit
+            (rbcL) gene, partial cds; chloroplast.
+ACCESSION   MW620303
+VERSION     MW620303.1
+DBLINK      BioProject: PRJNA722235
+KEYWORDS    .
+SOURCE      chloroplast Adiantum capillus-veneris
+  ORGANISM  Adiantum capillus-veneris
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Polypodiopsida; Polypodiidae; Polypodiales; Pteridineae;
+            Pteridaceae; Vittarioideae; Adiantum.
+REFERENCE   1  (bases 1 to 1308)
+  AUTHORS   Schuettpelz,E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-FEB-2021) Botany, National Museum of Natural History,
+            Smithsonian Institution, 1000 Constitution Ave NW, Washington, DC
+            20560, USA
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1308
+                     /organism="Adiantum capillus-veneris"
+                     /organelle="plastid:chloroplast"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="Eric Schuettpelz 1662 (MEXU, US)"
+                     /db_xref="taxon:13818"
+                     /geo_loc_name="Mexico: Puebla"
+     gene            <1..>1308
+                     /gene="rbcL"
+     CDS             <1..>1308
+                     /gene="rbcL"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribulose-1,5-bisphosphate carboxylase/oxygenase
+                     large subunit"
+                     /protein_id="UHU33818.1"
+                     /translation="GVGFKAGVKDYRLTYYTPEYKTKDTDILAAFRMTPQPGVPAEEA
+                     GAAVAAESSTGTWTTVWTDGLTSLDRYKGRCYDIEPVAGEENQYIAYVAYPLDLFEEG
+                     SVTNMLTSIVGNVFGFKALRALRLEDLRIPPAYSKTFIGPPHGIQVERDKLNKYGRPL
+                     LGCTIKPKLGLSAKNYGRAVYECLRGGLDFTKDDENVNSQPFMRWRDRFLFVAEALFK
+                     SQAETGEIKGHYLNATAGTCEEMMKRAVFARELGAPIVMHDYLTGGFTANTSLAFYCR
+                     DNGLLLHIHRAMHAVIDRQKNHGIHFRVLAKALRMSGGDHIHAGTVVGKLEGEREVTL
+                     GFVDLLRDDYIEKDRSRGIYFTQDWVSMPGVFPVASGGIHVWHMPALTEIFGDDSVLQ
+                     FGGGTLGHPWGNAPGAVANRVALEACVQARNEGRDLAREGNEII"
+ORIGIN      
+        1 ggtgtgggat tcaaagctgg tgtcaaagat taccgattga cctattacac tcccgaatac
+       61 aagaccaaag acactgatat cttagcggct ttccgaatga ctccacaacc tggagtaccg
+      121 gctgaagaag ccggagctgc agtagctgca gaatcttcaa cgggtacatg gactacggta
+      181 tggacagacg gacttactag tcttgatcgc tacaagggcc ggtgctacga tatcgaaccc
+      241 gtagctggag aggagaatca gtatattgca tatgtagctt atcccctgga tttatttgag
+      301 gaaggttccg tcactaatat gttgacttct attgtaggaa atgtctttgg ctttaaggcc
+      361 ctacgcgcct tgcgtctgga agacttacga attcctcccg cttattccaa aacttttata
+      421 ggcccccctc acggtattca ggtggaaagg gataaactaa ataaatatgg acgtccccta
+      481 ttgggatgta caattaagcc aaaattgggc ttgtccgcca agaattatgg tagagccgtt
+      541 tatgagtgcc tccgcggtgg acttgatttt acaaaagatg atgaaaacgt gaattcccaa
+      601 ccgtttatgc gatggagaga tcgattctta tttgtagcag aagctctctt caaatcccag
+      661 gccgaaaccg gcgaaatcaa gggacattac ttgaatgcca ctgcgggtac gtgtgaagag
+      721 atgatgaaaa gagctgtttt tgctagagaa ttgggtgcac caattgtcat gcatgactac
+      781 ctgacggggg ggtttactgc aaataccagc ttagccttct actgcagaga caatgggcta
+      841 cttctgcaca tccacagggc gatgcatgct gtcatcgata gacagaaaaa tcacggtata
+      901 cattttcgtg tattagccaa ggcattacgc atgtccggtg gagatcacat ccatgctgga
+      961 actgtagtgg gcaaattgga aggcgaacga gaagttaccc taggatttgt cgacttactc
+     1021 cgcgacgatt acattgaaaa ggatcgtagc cgtggcatct attttaccca agattgggta
+     1081 tccatgccag gtgtattccc cgtagcttcg ggaggtatcc acgtttggca catgcctgcc
+     1141 ttaaccgaaa tttttgggga tgactccgtc ctacaatttg gcgggggaac attgggacac
+     1201 ccctggggaa atgcacccgg tgccgtagct aaccgagttg cattagaggc ttgcgtacag
+     1261 gcccgtaatg aaggccgcga cctcgcccgc gaaggtaacg aaatcatc
+//
+

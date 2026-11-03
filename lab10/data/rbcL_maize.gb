@@ -1,0 +1,85 @@
+LOCUS       Z11973                  1431 bp    DNA     linear   PLN 26-JUL-2016
+DEFINITION  Z.mays chloroplast rbcL gene for ribulose bisphosphate carboxylase.
+ACCESSION   Z11973
+VERSION     Z11973.1
+KEYWORDS    rbcL gene; ribulose bisphosphate carboxylase.
+SOURCE      chloroplast Zea mays
+  ORGANISM  Zea mays
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; Liliopsida; Poales; Poaceae; PACMAD
+            clade; Panicoideae; Andropogonodae; Andropogoneae; Tripsacinae;
+            Zea.
+REFERENCE   1  (bases 1 to 1400)
+  AUTHORS   Gaut,B.S., Muse,S.V., Clark,W.D. and Clegg,M.T.
+  TITLE     Relative rates of nucleotide substitution at the rbcL locus of
+            monocotyledonous plants
+  JOURNAL   J. Mol. Evol. 35 (4), 292-303 (1992)
+   PUBMED   1404415
+REFERENCE   2  (bases 1 to 1431)
+  AUTHORS   Gaut,B.S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-APR-1992) Gaut B. S., University of California,
+            Riverside, Botany and Plant Sciences, Riverside, California, USA,
+            92520
+FEATURES             Location/Qualifiers
+     source          1..1431
+                     /organism="Zea mays"
+                     /organelle="plastid:chloroplast"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:4577"
+                     /tissue_type="Leaf"
+                     /dev_stage="Adult"
+     gene            1..1431
+                     /gene="rbcL"
+     CDS             1..1431
+                     /gene="rbcL"
+                     /EC_number="4.1.1.39"
+                     /standard_name="rubisco"
+                     /citation=[1]
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Ribulose bisphosphate carboxylase"
+                     /protein_id="CAA78027.1"
+                     /db_xref="GOA:P00874"
+                     /db_xref="InterPro:IPR000685"
+                     /db_xref="InterPro:IPR017443"
+                     /db_xref="InterPro:IPR017444"
+                     /db_xref="InterPro:IPR020878"
+                     /db_xref="InterPro:IPR020888"
+                     /db_xref="UniProtKB/Swiss-Prot:P00874"
+                     /translation="MSPQTETKASVGFKAGVKDYKLTYYTPEYETKDTDILAAFRVTP
+                     QLGVPPEEAGAAVAAESSTGTWTTVWTDGLTSLDRYKGRCYHIEPVPGDPDQYICYVA
+                     YPLDLFEEGSVTNMFTSIVGNVFGFKALRALRLEDLRIPPAYSKTFQGPPHGIQVERD
+                     KLNKYGRPLLGCTIKPKLGLSAKNYGRACYECLRGGLDFTKDDENVNSQPFMRWRDRF
+                     VFCAEAIYKAQAETGEIKGHYLNATAGTCEEMIKRAVFARELGVPIVMHDYLTGGFTA
+                     NTTLSHYCRDNGLLLHIHRAMHAVIDRQKNHGMHFRVLAKALRMSGGDHIHSGTVVGK
+                     LEGEREITLGFVDLLRDDFIEKDRSRGIFFTQDWVSMPGVIPVASGGIHVWHMPALTE
+                     IFGDDSVLQFGGGTLGHPWGNAPGAAANRVALEACVQARNEGRDLAREGNEIIKAACK
+                     WSAELAAACEIWKEIKFDGFKAMDTI"
+ORIGIN      
+        1 atgtcaccac aaacagaaac taaagcaagt gttggattta aagctggtgt taaggattat
+       61 aaattgactt actacacccc ggagtacgaa accaaggata ctgatatctt ggcagcattc
+      121 cgagtaactc ctcagctcgg ggttccgcct gaagaagcag gagctgcagt agctgcggaa
+      181 tcttctactg gtacatggac aactgtttgg actgatggac ttaccagtct tgatcgttac
+      241 aaaggacgat gctatcacat cgagcccgtt cctggggacc cagatcaata tatctgttat
+      301 gtagcttatc cattagacct atttgaagag ggttctgtta ctaacatgtt tacttccatt
+      361 gtgggtaacg tatttggttt caaagcctta cgcgctctac gtttggagga tctacgaatt
+      421 ccccctgctt attcaaaaac tttccaaggt ccgcctcacg gtatccaagt tgaaagggat
+      481 aagttgaaca agtacggtcg tcctttattg ggatgtacta ttaaaccaaa attgggatta
+      541 tccgcaaaaa attacggtag agcgtgttat gagtgtctac gcggtggact tgattttacc
+      601 aaagatgatg aaaacgtaaa ctcacaacca tttatgcgct ggagagaccg tttcgtcttt
+      661 tgtgccgaag caatttataa agcacaagcc gaaactggtg aaatcaaggg gcattacttg
+      721 aatgcgactg caggtacatg cgaagaaatg attaagagag ctgtatttgc aagggaatta
+      781 ggggttccta ttgtaatgca tgactactta acaggaggat tcaccgcaaa tactactttg
+      841 tctcattatt gccgcgacaa cggcctactt cttcacattc accgagcaat gcatgcagtt
+      901 attgatagac agaaaaatca tggtatgcat ttccgtgtat tagctaaagc attgcgtatg
+      961 tcggggggag atcatatcca ctccggtaca gtagtaggta agttagaagg ggaacgcgaa
+     1021 ataactttag gttttgttga tttattgcgc gatgatttta ttgaaaaaga tcgttctcgc
+     1081 ggtatctttt tcactcagga ctgggtatcc atgccaggtg ttataccggt ggcttctggg
+     1141 ggtattcatg tttggcatat gccagctctg accgaaatct ttggagatga ttccgtatta
+     1201 caatttggtg gaggaacttt aggacatcct tggggaaatg cacctggtgc agcagctaat
+     1261 cgtgtggctt tagaagcctg tgtacaagct cgtaacgaag ggcgcgatct tgctcgtgaa
+     1321 ggtaatgaaa ttatcaaagc agcttgcaaa tggagtgctg aactagccgc agcttgtgaa
+     1381 atatggaagg agatcaaatt tgatggtttc aaagcgatgg ataccatata a
+//
+

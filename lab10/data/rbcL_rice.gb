@@ -1,0 +1,82 @@
+LOCUS       RICCHRBCLA              1355 bp    mRNA    linear   PLN 26-JUL-2016
+DEFINITION  Oryza sativa chloroplast rubisco large subunit (rbcL) mRNA,
+            complete cds.
+ACCESSION   L24073
+VERSION     L24073.1
+KEYWORDS    chloroplast protein; rubisco large subunit.
+SOURCE      chloroplast Oryza sativa (Asian cultivated rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; Liliopsida; Poales; Poaceae; BOP
+            clade; Oryzoideae; Oryzeae; Oryzinae; Oryza.
+REFERENCE   1  (bases 1 to 1355)
+  AUTHORS   Zhang,J.S., Gu,J., Liu,F.H. and Chen,S.Y.
+  TITLE     A gene encoding a truncated large subunit of Rubisco is transcribed
+            and salt-inducible in rice
+  JOURNAL   Theor. Appl. Genet. 91 (2), 361-366 (1995)
+   PUBMED   24169786
+REFERENCE   2  (bases 1 to 1355)
+  AUTHORS   Zhang,J.-S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-MAY-1994) Jin-Song Zhang, Biology, Kansas State
+            University, Manhattan, KS 66506, USA
+COMMENT     Original source text: Oryza sativa (individual_isolate
+            salt-tolerant mutant 20) cDNA to mRNA.
+FEATURES             Location/Qualifiers
+     source          1..1355
+                     /organism="Oryza sativa"
+                     /organelle="plastid:chloroplast"
+                     /mol_type="mRNA"
+                     /isolate="salt-tolerant mutant 20"
+                     /db_xref="taxon:4530"
+                     /tissue_type="seedling"
+                     /tissue_lib="lambda gt10"
+     gene            1..1355
+                     /gene="rbcL"
+     regulatory      24..30
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="rbcL"
+     CDS             35..1240
+                     /gene="rbcL"
+                     /EC_number="4.1.1.39"
+                     /note="chimeric"
+                     /codon_start=1
+                     /product="ribulose-1,5-bisphosphate carboxylase/oxygenase
+                     large subunit"
+                     /protein_id="AAB02583.1"
+                     /translation="MSPQTETKASVGFKAGVKDYKLTYYTPEYETKDTDILAAFRVTP
+                     QPGVPPEEAGAAVAAESSTGTWTTVWTDGLTSLDRYKGRCYHIEPVVGEDNQYIAYVA
+                     YPLDLFEEGSVTNMFTSIVGNVFGFKALRALRLEDLRIPPTYSKTFQGPPHGIQVERD
+                     KLNKYGRPLLGCTIKPKLGLSAKNYGRACYECLAGGLDFTKDDENVNSQPFMRWRGRF
+                     VFCAEAIYKSQAETGEIKGHYLNATAGTCEEMIKRAVFARELGVPIVMHDYLTGGFTA
+                     NTSLAHYCRDNGLLLHIHRAMHAVIDRQKNHGMHFRVLAKALRMSGGDHIHAGTVVGK
+                     LEGIFFFFFFFFFFFLRKELYVCVIIQNKHVVQGVAVHACRISSSLWYTYPSKRSKTY
+                     ETNTQEEES"
+     variation       1046..1355
+                     /gene="rbcL"
+ORIGIN      
+        1 gaattcttaa ttcatgagtt gtagggaggg acgtatgtca ccacaaacag aaactaaagc
+       61 aagtgttgga tttaaagctg gtgttaagga ttataaattg acttactaca ccccggagta
+      121 cgaaaccaag gacactgata tcttggcagc attccgagta actcctcagc cgggggttcc
+      181 gcccgaagaa gcaggggctg cagtagctgc cgaatcttct actggtacat ggacaactgt
+      241 ttggactgat ggacttacca gtcttgatcg ttacaaaggc cgatgctatc acatcgagcc
+      301 cgttgttggg gaggataatc aatatatcgc ttatgtagct tatccattag acctatttga
+      361 agagggttct gttactaaca tgtttacttc cattgtgggt aacgtatttg gtttcaaagc
+      421 cctacgcgct ctacgtctgg aggatctgcg aattccccct acttattcaa aaactttcca
+      481 aggcccgcct catggtatcc aagttgaaag ggataagttg aacaaatacg gtcgtccttt
+      541 attgggatgt actattaaac caaaattggg attatctgca aaaaattatg gtagagcatg
+      601 ttatgagtgt ctagccggtg gacttgattt taccaaagat gatgaaaacg taaactcaca
+      661 accatttatg cgttggaggg gacgttttgt cttttgtgcc gaagctattt ataaatcaca
+      721 ggccgaaacc ggtgaaatta aggggcatta cttgaatgcg actgcaggta catgcgaaga
+      781 aatgattaaa agagctgtat ttgcgaggga attaggggtt cctattgtaa tgcatgacta
+      841 cttaaccggg gggttcaccg caaatactag tttggctcat tattgccgcg acaacggcct
+      901 acttcttcac attcaccgag caatgcatgc agttattgat agacagaaaa atcatggtat
+      961 gcatttccgt gtattagcta aagcattgcg tatgtctggg ggagatcata tccacgctgg
+     1021 tacagtagta ggtaagttag aagggatttt tttttttttt ttcttttttt tttttttttt
+     1081 tttacgaaaa gagctatatg tatgtgtaat aatccaaaac aagcacgtag tacaaggagt
+     1141 tgcagtacat gcatgtagaa tctctagctc tctctggtac acgtacccct cgaaaaggag
+     1201 caaaacgtac gagacgaaca cacaagaaga agaaagctag ctagcgtgac cgggccgatc
+     1261 aaccatggat gcatggtgat tgatcgagac cttagctagc tcatctttta ttccagaata
+     1321 cagatatgat actactagta ctggatacag aattc
+//
+
