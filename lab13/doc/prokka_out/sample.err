@@ -1,0 +1,923 @@
+Discrepancy Report Results
+
+Summary
+FATAL: MISSING_PROTEIN_ID:149 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all same)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all same)
+DISC_FEATURE_COUNT:CDS: 149 present
+DISC_FEATURE_COUNT:tRNA: 2 present
+DISC_COUNT_NUCLEOTIDES:12 nucleotide Bioseqs are present
+FEATURE_LOCATION_CONFLICT:151 features have inconsistent gene locations.
+OVERLAPPING_CDS:2 coding regions overlap another coding region with a similar or identical name.
+SHORT_CONTIG:1 contigs are shorter than 200 nt.
+NO_ANNOTATION:3 bioseqs have no features
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+ONCALLER_COMMENT_PRESENT:12 comment descriptors were found (all same)
+SHORT_PROT_SEQUENCES:2 protein sequences are shorter than 50 aa.
+MISSING_GENOMEASSEMBLY_COMMENTS:12 bioseqs are missing GenomeAssembly structured comments
+SHORT_SEQUENCES_200:1 sequences are shorter than 200 bp.
+MOLTYPE_NOT_MRNA:12 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:12 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:12 sequences do not include structured comments.
+MISSING_PROJECT:161 sequences do not include project.
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+
+
+Detailed Report
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::149 proteins have invalid IDs.
+doc/prokka_out/sample:contig00001_1 (length 318)
+doc/prokka_out/sample:contig00001_2 (length 257)
+doc/prokka_out/sample:contig00001_3 (length 266)
+doc/prokka_out/sample:contig00001_4 (length 271)
+doc/prokka_out/sample:contig00001_5 (length 392)
+doc/prokka_out/sample:contig00001_6 (length 220)
+doc/prokka_out/sample:contig00001_7 (length 452)
+doc/prokka_out/sample:contig00001_8 (length 235)
+doc/prokka_out/sample:contig00001_9 (length 246)
+doc/prokka_out/sample:contig00001_10 (length 221)
+doc/prokka_out/sample:contig00001_11 (length 199)
+doc/prokka_out/sample:contig00001_12 (length 476)
+doc/prokka_out/sample:contig00001_13 (length 412)
+doc/prokka_out/sample:contig00001_14 (length 388)
+doc/prokka_out/sample:contig00001_15 (length 229)
+doc/prokka_out/sample:contig00001_16 (length 323)
+doc/prokka_out/sample:contig00001_17 (length 258)
+doc/prokka_out/sample:contig00001_18 (length 208)
+doc/prokka_out/sample:contig00001_19 (length 254)
+doc/prokka_out/sample:contig00001_20 (length 400)
+doc/prokka_out/sample:contig00001_21 (length 258)
+doc/prokka_out/sample:contig00001_22 (length 1164)
+doc/prokka_out/sample:contig00001_23 (length 418)
+doc/prokka_out/sample:contig00001_24 (length 584)
+doc/prokka_out/sample:contig00001_25 (length 336)
+doc/prokka_out/sample:contig00001_26 (length 326)
+doc/prokka_out/sample:contig00001_27 (length 295)
+doc/prokka_out/sample:contig00001_28 (length 331)
+doc/prokka_out/sample:contig00001_29 (length 332)
+doc/prokka_out/sample:contig00001_30 (length 250)
+doc/prokka_out/sample:contig00001_31 (length 383)
+doc/prokka_out/sample:contig00001_32 (length 511)
+doc/prokka_out/sample:contig00001_33 (length 401)
+doc/prokka_out/sample:contig00001_34 (length 185)
+doc/prokka_out/sample:contig00001_35 (length 295)
+doc/prokka_out/sample:contig00001_36 (length 420)
+doc/prokka_out/sample:contig00001_37 (length 391)
+doc/prokka_out/sample:contig00001_38 (length 108)
+doc/prokka_out/sample:contig00001_39 (length 127)
+doc/prokka_out/sample:contig00001_40 (length 495)
+doc/prokka_out/sample:contig00001_41 (length 319)
+doc/prokka_out/sample:contig00001_42 (length 67)
+doc/prokka_out/sample:contig00001_43 (length 170)
+doc/prokka_out/sample:contig00001_44 (length 246)
+doc/prokka_out/sample:contig00001_45 (length 324)
+doc/prokka_out/sample:contig00001_46 (length 253)
+doc/prokka_out/sample:contig00001_47 (length 344)
+doc/prokka_out/sample:contig00001_48 (length 119)
+doc/prokka_out/sample:contig00001_49 (length 391)
+doc/prokka_out/sample:contig00001_50 (length 367)
+doc/prokka_out/sample:contig00001_51 (length 2392)
+doc/prokka_out/sample:contig00001_52 (length 214)
+doc/prokka_out/sample:contig00001_53 (length 164)
+doc/prokka_out/sample:contig00001_54 (length 256)
+doc/prokka_out/sample:contig00001_55 (length 413)
+doc/prokka_out/sample:contig00001_56 (length 344)
+doc/prokka_out/sample:contig00001_57 (length 394)
+doc/prokka_out/sample:contig00001_58 (length 441)
+doc/prokka_out/sample:contig00001_59 (length 185)
+doc/prokka_out/sample:contig00002_1 (length 247)
+doc/prokka_out/sample:contig00002_2 (length 142)
+doc/prokka_out/sample:contig00002_3 (length 668)
+doc/prokka_out/sample:contig00002_4 (length 563)
+doc/prokka_out/sample:contig00002_5 (length 123)
+doc/prokka_out/sample:contig00002_6 (length 369)
+doc/prokka_out/sample:contig00002_7 (length 101)
+doc/prokka_out/sample:contig00002_8 (length 312)
+doc/prokka_out/sample:contig00002_9 (length 354)
+doc/prokka_out/sample:contig00002_10 (length 86)
+doc/prokka_out/sample:contig00002_11 (length 209)
+doc/prokka_out/sample:contig00002_12 (length 219)
+doc/prokka_out/sample:contig00002_13 (length 804)
+doc/prokka_out/sample:contig00002_14 (length 121)
+doc/prokka_out/sample:contig00002_15 (length 125)
+doc/prokka_out/sample:contig00002_16 (length 630)
+doc/prokka_out/sample:contig00002_17 (length 107)
+doc/prokka_out/sample:contig00002_18 (length 68)
+doc/prokka_out/sample:contig00002_19 (length 173)
+doc/prokka_out/sample:contig00002_20 (length 103)
+doc/prokka_out/sample:contig00002_21 (length 29)
+doc/prokka_out/sample:contig00002_22 (length 116)
+doc/prokka_out/sample:contig00002_23 (length 542)
+doc/prokka_out/sample:contig00002_24 (length 448)
+doc/prokka_out/sample:contig00002_25 (length 91)
+doc/prokka_out/sample:contig00002_26 (length 595)
+doc/prokka_out/sample:contig00002_27 (length 95)
+doc/prokka_out/sample:contig00002_28 (length 343)
+doc/prokka_out/sample:contig00002_29 (length 190)
+doc/prokka_out/sample:contig00002_30 (length 566)
+doc/prokka_out/sample:contig00002_31 (length 346)
+doc/prokka_out/sample:contig00002_32 (length 52)
+doc/prokka_out/sample:contig00002_33 (length 323)
+doc/prokka_out/sample:contig00002_34 (length 123)
+doc/prokka_out/sample:contig00002_35 (length 463)
+doc/prokka_out/sample:contig00002_36 (length 67)
+doc/prokka_out/sample:contig00002_37 (length 121)
+doc/prokka_out/sample:contig00002_38 (length 191)
+doc/prokka_out/sample:contig00002_39 (length 157)
+doc/prokka_out/sample:contig00002_40 (length 328)
+doc/prokka_out/sample:contig00002_41 (length 98)
+doc/prokka_out/sample:contig00002_42 (length 200)
+doc/prokka_out/sample:contig00002_43 (length 1050)
+doc/prokka_out/sample:contig00002_44 (length 160)
+doc/prokka_out/sample:contig00002_45 (length 328)
+doc/prokka_out/sample:contig00002_46 (length 255)
+doc/prokka_out/sample:contig00002_47 (length 745)
+doc/prokka_out/sample:contig00002_48 (length 392)
+doc/prokka_out/sample:contig00002_49 (length 462)
+doc/prokka_out/sample:contig00002_50 (length 555)
+doc/prokka_out/sample:contig00002_51 (length 591)
+doc/prokka_out/sample:contig00002_52 (length 157)
+doc/prokka_out/sample:contig00002_53 (length 530)
+doc/prokka_out/sample:contig00002_54 (length 176)
+doc/prokka_out/sample:contig00003_1 (length 444)
+doc/prokka_out/sample:contig00003_2 (length 377)
+doc/prokka_out/sample:contig00003_3 (length 78)
+doc/prokka_out/sample:contig00003_4 (length 370)
+doc/prokka_out/sample:contig00003_5 (length 644)
+doc/prokka_out/sample:contig00003_6 (length 886)
+doc/prokka_out/sample:contig00003_7 (length 270)
+doc/prokka_out/sample:contig00003_8 (length 504)
+doc/prokka_out/sample:contig00003_9 (length 428)
+doc/prokka_out/sample:contig00003_10 (length 231)
+doc/prokka_out/sample:contig00003_11 (length 109)
+doc/prokka_out/sample:contig00003_12 (length 322)
+doc/prokka_out/sample:contig00003_13 (length 307)
+doc/prokka_out/sample:contig00003_14 (length 655)
+doc/prokka_out/sample:contig00003_15 (length 148)
+doc/prokka_out/sample:contig00003_16 (length 466)
+doc/prokka_out/sample:contig00003_17 (length 427)
+doc/prokka_out/sample:contig00003_18 (length 233)
+doc/prokka_out/sample:contig00003_19 (length 608)
+doc/prokka_out/sample:contig00003_20 (length 444)
+doc/prokka_out/sample:contig00003_21 (length 262)
+doc/prokka_out/sample:contig00003_22 (length 263)
+doc/prokka_out/sample:contig00003_23 (length 772)
+doc/prokka_out/sample:contig00003_24 (length 159)
+doc/prokka_out/sample:contig00003_25 (length 416)
+doc/prokka_out/sample:contig00004_1 (length 546)
+doc/prokka_out/sample:contig00004_2 (length 44)
+doc/prokka_out/sample:contig00004_3 (length 681)
+doc/prokka_out/sample:contig00005_1 (length 420)
+doc/prokka_out/sample:contig00005_2 (length 134)
+doc/prokka_out/sample:contig00005_3 (length 247)
+doc/prokka_out/sample:contig00006_1 (length 68)
+doc/prokka_out/sample:contig00006_2 (length 165)
+doc/prokka_out/sample:contig00007_1 (length 55)
+doc/prokka_out/sample:contig00008_1 (length 224)
+doc/prokka_out/sample:contig00009_1 (length 79)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all same)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::12 sources have 'strain' for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all same)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::12 sources have 'Genus species' for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 149 present
+DiscRep_ALL:DISC_FEATURE_COUNT::tRNA: 2 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::12 nucleotide Bioseqs are present
+doc/prokka_out/sample:contig00001 (length 73132)
+doc/prokka_out/sample:contig00002 (length 58878)
+doc/prokka_out/sample:contig00003 (length 35158)
+doc/prokka_out/sample:contig00004 (length 5981)
+doc/prokka_out/sample:contig00005 (length 3843)
+doc/prokka_out/sample:contig00006 (length 1046)
+doc/prokka_out/sample:contig00007 (length 816)
+doc/prokka_out/sample:contig00008 (length 790)
+doc/prokka_out/sample:contig00009 (length 645)
+doc/prokka_out/sample:contig00010 (length 223)
+doc/prokka_out/sample:contig00011 (length 203)
+doc/prokka_out/sample:contig00012 (length 197)
+
+DiscRep_ALL:FEATURE_LOCATION_CONFLICT::151 features have inconsistent gene locations.
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	putative ABC transporter phosphonate/phosphite binding protein PhnD2	contig00001:1408-2364	EIHNLLIJ_00001
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Glutamine transport ATP-binding protein GlnQ	contig00001:2578-3351	EIHNLLIJ_00002
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Phosphate-import permease protein PhnE	contig00001:3353-4153	EIHNLLIJ_00003
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Phosphate-import permease protein PhnE	contig00001:4150-4965	EIHNLLIJ_00004
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Phosphopentomutase	contig00001:c6274-5096	EIHNLLIJ_00005
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Deoxyribose-phosphate aldolase 1	contig00001:c6964-6302	EIHNLLIJ_00006
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	tetracycline efflux MFS transporter Tet(38)	contig00001:c8403-7045	EIHNLLIJ_00007
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Purine nucleoside phosphorylase DeoD-type	contig00001:c9111-8404	EIHNLLIJ_00008
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00001:9362-10102	EIHNLLIJ_00009
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00001:c10869-10204	EIHNLLIJ_00010
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Superoxide dismutase [Mn/Fe] 2	contig00001:c11837-11238	EIHNLLIJ_00011
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00001:c13535-12105	EIHNLLIJ_00012
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00001:c14763-13525	EIHNLLIJ_00013
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	UDP-Gal:alpha-D-GlcNAc-diphosphoundecaprenol alpha-1,3-galactosyltransferase	contig00001:c15910-14744	EIHNLLIJ_00014
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00001:c16809-16120	EIHNLLIJ_00015
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	UDP-N-acetyl-alpha-D-glucosaminouronate 4-epimerase	contig00001:c17743-16772	EIHNLLIJ_00016
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Diacetyl reductase [(S)-acetoin forming]	contig00001:c18863-18087	EIHNLLIJ_00017
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00001:c19700-19074	EIHNLLIJ_00018
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	ATP-dependent L-serine kinase SbnI	contig00001:c20660-19896	EIHNLLIJ_00019
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	2-[(L-alanin-3-ylcarbamoyl)methyl]-2-hydroxybutanedioate decarboxylase	contig00001:c21866-20664	EIHNLLIJ_00020
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	5-keto-4-deoxy-D-glucarate aldolase	contig00001:c22642-21866	EIHNLLIJ_00021
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00001:c26111-22617	EIHNLLIJ_00022
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Staphyloferrin B transporter	contig00001:c27357-26101	EIHNLLIJ_00023
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Staphyloferrin B synthase	contig00001:c29104-27350	EIHNLLIJ_00024
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	N-((2S)-2-amino-2-carboxyethyl)-L-glutamate dehydrogenase	contig00001:c30135-29125	EIHNLLIJ_00025
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	N-(2-amino-2-carboxyethyl)-L-glutamate synthase	contig00001:c31112-30132	EIHNLLIJ_00026
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	putative siderophore-binding lipoprotein YfiY	contig00001:31343-32230	EIHNLLIJ_00027
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	putative siderophore transport system permease protein YfiZ	contig00001:32352-33347	EIHNLLIJ_00028
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	putative siderophore transport system permease protein YfhA	contig00001:33344-34342	EIHNLLIJ_00029
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	HTH-type transcriptional regulator SarS	contig00001:34711-35463	EIHNLLIJ_00030
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00001:35888-37039	EIHNLLIJ_00031
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Trifunctional nucleotide phosphoesterase protein YfkN	contig00001:37090-38625	EIHNLLIJ_00032
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00001:38906-40111	EIHNLLIJ_00033
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	putative sugar transferase EpsL	contig00001:40122-40679	EIHNLLIJ_00034
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	GDP-L-fucose synthase	contig00001:40679-41566	EIHNLLIJ_00035
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	UDP-N-acetyl-D-mannosamine dehydrogenase	contig00001:41618-42880	EIHNLLIJ_00036
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	UDP-N-acetylglucosamine 2-epimerase	contig00001:42927-44102	EIHNLLIJ_00037
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Heme oxygenase (staphylobilin-producing) 2	contig00001:c44493-44167	EIHNLLIJ_00038
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Inner membrane protein YbaN	contig00001:c44883-44500	EIHNLLIJ_00039
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Putative aldehyde dehydrogenase AldA	contig00001:45310-46797	EIHNLLIJ_00040
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Cadmium, cobalt and zinc/H(+)-K(+) antiporter	contig00001:47444-48403	EIHNLLIJ_00041
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00001:c48668-48465	EIHNLLIJ_00042
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00001:48848-49360	EIHNLLIJ_00043
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Nitrate import ATP-binding protein NrtD	contig00001:49702-50442	EIHNLLIJ_00044
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00001:50456-51430	EIHNLLIJ_00045
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Putative aliphatic sulfonates transport permease protein SsuC	contig00001:51427-52188	EIHNLLIJ_00046
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00001:52198-53232	EIHNLLIJ_00047
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00001:53446-53805	EIHNLLIJ_00048
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Formate dehydrogenase	contig00001:53829-55004	EIHNLLIJ_00049
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00001:55537-56640	EIHNLLIJ_00050
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Tyrocidine synthase 3	contig00001:57087-64265	EIHNLLIJ_00051
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00001:64278-64922	EIHNLLIJ_00052
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Inner membrane protein YagU	contig00001:c65745-65251	EIHNLLIJ_00053
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Acetylglutamate kinase	contig00001:c66785-66015	EIHNLLIJ_00054
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Arginine biosynthesis bifunctional protein ArgJ	contig00001:c68042-66801	EIHNLLIJ_00055
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	N-acetyl-gamma-glutamyl-phosphate reductase	contig00001:c69088-68054	EIHNLLIJ_00056
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Ornithine aminotransferase 2	contig00001:c70308-69124	EIHNLLIJ_00057
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Branched-chain amino acid permease BrnQ	contig00001:c71886-70561	EIHNLLIJ_00058
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Isochorismatase family protein YecD	contig00001:c72750-72193	EIHNLLIJ_00059
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Glycerophosphodiester phosphodiesterase, cytoplasmic	contig00002:330-1073	EIHNLLIJ_00060
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00002:1170-1598	EIHNLLIJ_00061
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	PBP2a family beta-lactam-resistant peptidoglycan transpeptidase MecA	contig00002:c3650-1644	EIHNLLIJ_00062
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	beta-lactam sensor/signal transducer MecR1	contig00002:3816-5507	EIHNLLIJ_00063
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Methicillin resistance regulatory protein MecI	contig00002:5507-5878	EIHNLLIJ_00064
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	DNA-binding transcriptional dual regulator NagC	contig00002:6386-7495	EIHNLLIJ_00065
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Thiosulfate sulfurtransferase GlpE	contig00002:c7914-7609	EIHNLLIJ_00066
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Hydroxyacylglutathione hydrolase	contig00002:c8943-8005	EIHNLLIJ_00067
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Thiosulfate sulfurtransferase GlpE	contig00002:c10040-8976	EIHNLLIJ_00068
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00002:10176-10436	EIHNLLIJ_00069
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00002:10451-11080	EIHNLLIJ_00070
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00002:c12007-11348	EIHNLLIJ_00071
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Cadmium-transporting ATPase	contig00002:c14460-12046	EIHNLLIJ_00072
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Cadmium resistance transcriptional regulatory protein CadC	contig00002:c14818-14453	EIHNLLIJ_00073
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00002:c15433-15056	EIHNLLIJ_00074
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Tyrosine recombinase XerC	contig00002:c17332-15440	EIHNLLIJ_00075
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00002:c17850-17527	EIHNLLIJ_00076
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00002:c18049-17843	EIHNLLIJ_00077
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00002:c18572-18051	EIHNLLIJ_00078
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00002:c18902-18591	EIHNLLIJ_00079
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00002:c18994-18905	EIHNLLIJ_00080
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00002:c19337-18987	EIHNLLIJ_00081
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00002:c21436-19808	EIHNLLIJ_00082
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00002:c22803-21457	EIHNLLIJ_00083
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00002:c23271-22996	EIHNLLIJ_00084
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00002:c25148-23361	EIHNLLIJ_00085
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00002:c25435-25148	EIHNLLIJ_00086
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00002:25569-26600	EIHNLLIJ_00087
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00002:26670-27242	EIHNLLIJ_00088
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00002:27597-29297	EIHNLLIJ_00089
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Type IV methyl-directed restriction enzyme EcoKMcrBC	contig00002:29290-30330	EIHNLLIJ_00090
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00002:30761-30919	EIHNLLIJ_00091
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Gamma-resorcylate decarboxylase	contig00002:c32729-31758	EIHNLLIJ_00092
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00002:c33153-32782	EIHNLLIJ_00093
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Fatty acid resistance protein FarB	contig00002:c34564-33173	EIHNLLIJ_00094
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00002:34678-34881	EIHNLLIJ_00095
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00002:34891-35256	EIHNLLIJ_00096
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00002:35531-36106	EIHNLLIJ_00097
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00002:36576-37049	EIHNLLIJ_00098
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	putative tRNA-dihydrouridine synthase	contig00002:c38142-37156	EIHNLLIJ_00099
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00002:38702-38998	EIHNLLIJ_00100
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00002:39206-39808	EIHNLLIJ_00101
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00002:40076-43228	EIHNLLIJ_00102
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00002:43311-43793	EIHNLLIJ_00103
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	1-phosphatidylinositol phosphodiesterase	contig00002:43998-44984	EIHNLLIJ_00104
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	putative lipoprotein	contig00002:45208-45975	EIHNLLIJ_00105
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	HTH-type transcriptional activator RhaS	contig00002:46069-48306	EIHNLLIJ_00106
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	N-acetyl-L-cysteine deacetylase	contig00002:48457-49635	EIHNLLIJ_00107
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Quinolone resistance protein NorB	contig00002:49637-51025	EIHNLLIJ_00108
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00002:c53178-51511	EIHNLLIJ_00109
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Oleate hydratase	contig00002:c55272-53497	EIHNLLIJ_00110
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00002:55623-56096	EIHNLLIJ_00111
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	L-lactate permease	contig00002:56358-57950	EIHNLLIJ_00112
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Immunoglobulin G-binding protein A	contig00002:c58809-58279	EIHNLLIJ_00113
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Chromosomal replication initiator protein DnaA	contig00003:8-1342	EIHNLLIJ_00114
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Beta sliding clamp	contig00003:1620-2753	EIHNLLIJ_00115
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00003:3143-3379	EIHNLLIJ_00116
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	DNA replication and repair protein RecF	contig00003:3376-4488	EIHNLLIJ_00117
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	DNA topoisomerase (ATP-hydrolyzing) subunit B GyrB	contig00003:4498-6432	EIHNLLIJ_00118
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	DNA gyrase subunit A GyrA	contig00003:6469-9129	EIHNLLIJ_00119
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	ADP-dependent (S)-NAD(P)H-hydrate dehydratase	contig00003:c10029-9217	EIHNLLIJ_00120
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Histidine ammonia-lyase	contig00003:10355-11869	EIHNLLIJ_00121
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Serine--tRNA ligase	contig00003:12247-13533	EIHNLLIJ_00122
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00003:14177-14872	EIHNLLIJ_00123
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00003:14869-15198	EIHNLLIJ_00124
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Homoserine O-acetyltransferase	contig00003:15560-16528	EIHNLLIJ_00125
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00003:16836-17759	EIHNLLIJ_00126
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	cyclic-di-AMP phosphodiesterase GdpP	contig00003:17774-19741	EIHNLLIJ_00127
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Large ribosomal subunit protein bL9	contig00003:19738-20184	EIHNLLIJ_00128
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Replicative DNA helicase DnaB	contig00003:20216-21616	EIHNLLIJ_00129
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Adenylosuccinate synthetase	contig00003:21895-23178	EIHNLLIJ_00130
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Transcriptional regulatory protein WalR	contig00003:24368-25069	EIHNLLIJ_00133
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	cell wall metabolism sensor histidine kinase WalK	contig00003:25082-26908	EIHNLLIJ_00134
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00003:26901-28235	EIHNLLIJ_00135
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Two-component system WalR/WalK regulatory protein YycI	contig00003:28236-29024	EIHNLLIJ_00136
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Exodeoxyribonuclease YycJ	contig00003:29421-30212	EIHNLLIJ_00137
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00003:30439-32757	EIHNLLIJ_00138
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Ribosomal RNA large subunit methyltransferase H	contig00003:33125-33604	EIHNLLIJ_00139
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00003:33824-35074	EIHNLLIJ_00140
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+doc/prokka_out/sample:tRNA	Glu	contig00003:23608-23682	EIHNLLIJ_00131
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+doc/prokka_out/sample:tRNA	Asp	contig00003:23690-23762	EIHNLLIJ_00132
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Indole-3-pyruvate decarboxylase	contig00004:c2029-389	EIHNLLIJ_00141
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00004:2160-2294	EIHNLLIJ_00142
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	PTS system glucose-specific EIICBA component	contig00004:c4346-2301	EIHNLLIJ_00143
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00005:c1701-439	EIHNLLIJ_00144
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Bleomycin resistance protein	contig00005:c2612-2208	EIHNLLIJ_00145
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	Aminoglycoside nucleotidyltransferase (4')	contig00005:c3572-2829	EIHNLLIJ_00146
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00006:c352-146	EIHNLLIJ_00147
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00006:c853-356	EIHNLLIJ_00148
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00007:c746-579	EIHNLLIJ_00149
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	IS6 family transposase IS431mec	contig00008:57-731	EIHNLLIJ_00150
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+doc/prokka_out/sample:CDS	hypothetical protein	contig00009:325-564	EIHNLLIJ_00151
+
+DiscRep_ALL:OVERLAPPING_CDS::2 coding regions overlap another coding region with a similar or identical name.
+DiscRep_SUB:OVERLAPPING_CDS::2 coding regions overlap another coding region with a similar or identical name that do not have the appropriate note text
+doc/prokka_out/sample:CDS	Phosphate-import permease protein PhnE	contig00001:3353-4153	EIHNLLIJ_00003
+doc/prokka_out/sample:CDS	Phosphate-import permease protein PhnE	contig00001:4150-4965	EIHNLLIJ_00004
+
+DiscRep_ALL:SHORT_CONTIG::1 contigs are shorter than 200 nt.
+doc/prokka_out/sample:contig00012 (length 197)
+
+DiscRep_ALL:NO_ANNOTATION::3 bioseqs have no features
+doc/prokka_out/sample:contig00010 (length 223)
+doc/prokka_out/sample:contig00011 (length 203)
+doc/prokka_out/sample:contig00012 (length 197)
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::12 comment descriptors were found (all same)
+doc/prokka_out/sample:contig00001:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+doc/prokka_out/sample:contig00002:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+doc/prokka_out/sample:contig00003:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+doc/prokka_out/sample:contig00004:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+doc/prokka_out/sample:contig00005:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+doc/prokka_out/sample:contig00006:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+doc/prokka_out/sample:contig00007:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+doc/prokka_out/sample:contig00008:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+doc/prokka_out/sample:contig00009:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+doc/prokka_out/sample:contig00010:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+doc/prokka_out/sample:contig00011:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+doc/prokka_out/sample:contig00012:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+
+DiscRep_ALL:SHORT_PROT_SEQUENCES::2 protein sequences are shorter than 50 aa.
+doc/prokka_out/sample:contig00002_21 (length 29)
+doc/prokka_out/sample:contig00004_2 (length 44)
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::12 bioseqs are missing GenomeAssembly structured comments
+doc/prokka_out/sample:contig00001 (length 73132)
+doc/prokka_out/sample:contig00002 (length 58878)
+doc/prokka_out/sample:contig00003 (length 35158)
+doc/prokka_out/sample:contig00004 (length 5981)
+doc/prokka_out/sample:contig00005 (length 3843)
+doc/prokka_out/sample:contig00006 (length 1046)
+doc/prokka_out/sample:contig00007 (length 816)
+doc/prokka_out/sample:contig00008 (length 790)
+doc/prokka_out/sample:contig00009 (length 645)
+doc/prokka_out/sample:contig00010 (length 223)
+doc/prokka_out/sample:contig00011 (length 203)
+doc/prokka_out/sample:contig00012 (length 197)
+
+DiscRep_ALL:SHORT_SEQUENCES_200::1 sequences are shorter than 200 bp.
+doc/prokka_out/sample:contig00012 (length 197)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::12 molecule types are not set as mRNA.
+doc/prokka_out/sample:contig00001 (length 73132)
+doc/prokka_out/sample:contig00002 (length 58878)
+doc/prokka_out/sample:contig00003 (length 35158)
+doc/prokka_out/sample:contig00004 (length 5981)
+doc/prokka_out/sample:contig00005 (length 3843)
+doc/prokka_out/sample:contig00006 (length 1046)
+doc/prokka_out/sample:contig00007 (length 816)
+doc/prokka_out/sample:contig00008 (length 790)
+doc/prokka_out/sample:contig00009 (length 645)
+doc/prokka_out/sample:contig00010 (length 223)
+doc/prokka_out/sample:contig00011 (length 203)
+doc/prokka_out/sample:contig00012 (length 197)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::12 technique are not set as TSA
+doc/prokka_out/sample:contig00001 (length 73132)
+doc/prokka_out/sample:contig00002 (length 58878)
+doc/prokka_out/sample:contig00003 (length 35158)
+doc/prokka_out/sample:contig00004 (length 5981)
+doc/prokka_out/sample:contig00005 (length 3843)
+doc/prokka_out/sample:contig00006 (length 1046)
+doc/prokka_out/sample:contig00007 (length 816)
+doc/prokka_out/sample:contig00008 (length 790)
+doc/prokka_out/sample:contig00009 (length 645)
+doc/prokka_out/sample:contig00010 (length 223)
+doc/prokka_out/sample:contig00011 (length 203)
+doc/prokka_out/sample:contig00012 (length 197)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::12 sequences do not include structured comments.
+doc/prokka_out/sample:contig00001 (length 73132)
+doc/prokka_out/sample:contig00002 (length 58878)
+doc/prokka_out/sample:contig00003 (length 35158)
+doc/prokka_out/sample:contig00004 (length 5981)
+doc/prokka_out/sample:contig00005 (length 3843)
+doc/prokka_out/sample:contig00006 (length 1046)
+doc/prokka_out/sample:contig00007 (length 816)
+doc/prokka_out/sample:contig00008 (length 790)
+doc/prokka_out/sample:contig00009 (length 645)
+doc/prokka_out/sample:contig00010 (length 223)
+doc/prokka_out/sample:contig00011 (length 203)
+doc/prokka_out/sample:contig00012 (length 197)
+
+DiscRep_ALL:MISSING_PROJECT::161 sequences do not include project.
+doc/prokka_out/sample:contig00001 (length 73132)
+doc/prokka_out/sample:contig00001_1 (length 318)
+doc/prokka_out/sample:contig00001_2 (length 257)
+doc/prokka_out/sample:contig00001_3 (length 266)
+doc/prokka_out/sample:contig00001_4 (length 271)
+doc/prokka_out/sample:contig00001_5 (length 392)
+doc/prokka_out/sample:contig00001_6 (length 220)
+doc/prokka_out/sample:contig00001_7 (length 452)
+doc/prokka_out/sample:contig00001_8 (length 235)
+doc/prokka_out/sample:contig00001_9 (length 246)
+doc/prokka_out/sample:contig00001_10 (length 221)
+doc/prokka_out/sample:contig00001_11 (length 199)
+doc/prokka_out/sample:contig00001_12 (length 476)
+doc/prokka_out/sample:contig00001_13 (length 412)
+doc/prokka_out/sample:contig00001_14 (length 388)
+doc/prokka_out/sample:contig00001_15 (length 229)
+doc/prokka_out/sample:contig00001_16 (length 323)
+doc/prokka_out/sample:contig00001_17 (length 258)
+doc/prokka_out/sample:contig00001_18 (length 208)
+doc/prokka_out/sample:contig00001_19 (length 254)
+doc/prokka_out/sample:contig00001_20 (length 400)
+doc/prokka_out/sample:contig00001_21 (length 258)
+doc/prokka_out/sample:contig00001_22 (length 1164)
+doc/prokka_out/sample:contig00001_23 (length 418)
+doc/prokka_out/sample:contig00001_24 (length 584)
+doc/prokka_out/sample:contig00001_25 (length 336)
+doc/prokka_out/sample:contig00001_26 (length 326)
+doc/prokka_out/sample:contig00001_27 (length 295)
+doc/prokka_out/sample:contig00001_28 (length 331)
+doc/prokka_out/sample:contig00001_29 (length 332)
+doc/prokka_out/sample:contig00001_30 (length 250)
+doc/prokka_out/sample:contig00001_31 (length 383)
+doc/prokka_out/sample:contig00001_32 (length 511)
+doc/prokka_out/sample:contig00001_33 (length 401)
+doc/prokka_out/sample:contig00001_34 (length 185)
+doc/prokka_out/sample:contig00001_35 (length 295)
+doc/prokka_out/sample:contig00001_36 (length 420)
+doc/prokka_out/sample:contig00001_37 (length 391)
+doc/prokka_out/sample:contig00001_38 (length 108)
+doc/prokka_out/sample:contig00001_39 (length 127)
+doc/prokka_out/sample:contig00001_40 (length 495)
+doc/prokka_out/sample:contig00001_41 (length 319)
+doc/prokka_out/sample:contig00001_42 (length 67)
+doc/prokka_out/sample:contig00001_43 (length 170)
+doc/prokka_out/sample:contig00001_44 (length 246)
+doc/prokka_out/sample:contig00001_45 (length 324)
+doc/prokka_out/sample:contig00001_46 (length 253)
+doc/prokka_out/sample:contig00001_47 (length 344)
+doc/prokka_out/sample:contig00001_48 (length 119)
+doc/prokka_out/sample:contig00001_49 (length 391)
+doc/prokka_out/sample:contig00001_50 (length 367)
+doc/prokka_out/sample:contig00001_51 (length 2392)
+doc/prokka_out/sample:contig00001_52 (length 214)
+doc/prokka_out/sample:contig00001_53 (length 164)
+doc/prokka_out/sample:contig00001_54 (length 256)
+doc/prokka_out/sample:contig00001_55 (length 413)
+doc/prokka_out/sample:contig00001_56 (length 344)
+doc/prokka_out/sample:contig00001_57 (length 394)
+doc/prokka_out/sample:contig00001_58 (length 441)
+doc/prokka_out/sample:contig00001_59 (length 185)
+doc/prokka_out/sample:contig00002 (length 58878)
+doc/prokka_out/sample:contig00002_1 (length 247)
+doc/prokka_out/sample:contig00002_2 (length 142)
+doc/prokka_out/sample:contig00002_3 (length 668)
+doc/prokka_out/sample:contig00002_4 (length 563)
+doc/prokka_out/sample:contig00002_5 (length 123)
+doc/prokka_out/sample:contig00002_6 (length 369)
+doc/prokka_out/sample:contig00002_7 (length 101)
+doc/prokka_out/sample:contig00002_8 (length 312)
+doc/prokka_out/sample:contig00002_9 (length 354)
+doc/prokka_out/sample:contig00002_10 (length 86)
+doc/prokka_out/sample:contig00002_11 (length 209)
+doc/prokka_out/sample:contig00002_12 (length 219)
+doc/prokka_out/sample:contig00002_13 (length 804)
+doc/prokka_out/sample:contig00002_14 (length 121)
+doc/prokka_out/sample:contig00002_15 (length 125)
+doc/prokka_out/sample:contig00002_16 (length 630)
+doc/prokka_out/sample:contig00002_17 (length 107)
+doc/prokka_out/sample:contig00002_18 (length 68)
+doc/prokka_out/sample:contig00002_19 (length 173)
+doc/prokka_out/sample:contig00002_20 (length 103)
+doc/prokka_out/sample:contig00002_21 (length 29)
+doc/prokka_out/sample:contig00002_22 (length 116)
+doc/prokka_out/sample:contig00002_23 (length 542)
+doc/prokka_out/sample:contig00002_24 (length 448)
+doc/prokka_out/sample:contig00002_25 (length 91)
+doc/prokka_out/sample:contig00002_26 (length 595)
+doc/prokka_out/sample:contig00002_27 (length 95)
+doc/prokka_out/sample:contig00002_28 (length 343)
+doc/prokka_out/sample:contig00002_29 (length 190)
+doc/prokka_out/sample:contig00002_30 (length 566)
+doc/prokka_out/sample:contig00002_31 (length 346)
+doc/prokka_out/sample:contig00002_32 (length 52)
+doc/prokka_out/sample:contig00002_33 (length 323)
+doc/prokka_out/sample:contig00002_34 (length 123)
+doc/prokka_out/sample:contig00002_35 (length 463)
+doc/prokka_out/sample:contig00002_36 (length 67)
+doc/prokka_out/sample:contig00002_37 (length 121)
+doc/prokka_out/sample:contig00002_38 (length 191)
+doc/prokka_out/sample:contig00002_39 (length 157)
+doc/prokka_out/sample:contig00002_40 (length 328)
+doc/prokka_out/sample:contig00002_41 (length 98)
+doc/prokka_out/sample:contig00002_42 (length 200)
+doc/prokka_out/sample:contig00002_43 (length 1050)
+doc/prokka_out/sample:contig00002_44 (length 160)
+doc/prokka_out/sample:contig00002_45 (length 328)
+doc/prokka_out/sample:contig00002_46 (length 255)
+doc/prokka_out/sample:contig00002_47 (length 745)
+doc/prokka_out/sample:contig00002_48 (length 392)
+doc/prokka_out/sample:contig00002_49 (length 462)
+doc/prokka_out/sample:contig00002_50 (length 555)
+doc/prokka_out/sample:contig00002_51 (length 591)
+doc/prokka_out/sample:contig00002_52 (length 157)
+doc/prokka_out/sample:contig00002_53 (length 530)
+doc/prokka_out/sample:contig00002_54 (length 176)
+doc/prokka_out/sample:contig00003 (length 35158)
+doc/prokka_out/sample:contig00003_1 (length 444)
+doc/prokka_out/sample:contig00003_2 (length 377)
+doc/prokka_out/sample:contig00003_3 (length 78)
+doc/prokka_out/sample:contig00003_4 (length 370)
+doc/prokka_out/sample:contig00003_5 (length 644)
+doc/prokka_out/sample:contig00003_6 (length 886)
+doc/prokka_out/sample:contig00003_7 (length 270)
+doc/prokka_out/sample:contig00003_8 (length 504)
+doc/prokka_out/sample:contig00003_9 (length 428)
+doc/prokka_out/sample:contig00003_10 (length 231)
+doc/prokka_out/sample:contig00003_11 (length 109)
+doc/prokka_out/sample:contig00003_12 (length 322)
+doc/prokka_out/sample:contig00003_13 (length 307)
+doc/prokka_out/sample:contig00003_14 (length 655)
+doc/prokka_out/sample:contig00003_15 (length 148)
+doc/prokka_out/sample:contig00003_16 (length 466)
+doc/prokka_out/sample:contig00003_17 (length 427)
+doc/prokka_out/sample:contig00003_18 (length 233)
+doc/prokka_out/sample:contig00003_19 (length 608)
+doc/prokka_out/sample:contig00003_20 (length 444)
+doc/prokka_out/sample:contig00003_21 (length 262)
+doc/prokka_out/sample:contig00003_22 (length 263)
+doc/prokka_out/sample:contig00003_23 (length 772)
+doc/prokka_out/sample:contig00003_24 (length 159)
+doc/prokka_out/sample:contig00003_25 (length 416)
+doc/prokka_out/sample:contig00004 (length 5981)
+doc/prokka_out/sample:contig00004_1 (length 546)
+doc/prokka_out/sample:contig00004_2 (length 44)
+doc/prokka_out/sample:contig00004_3 (length 681)
+doc/prokka_out/sample:contig00005 (length 3843)
+doc/prokka_out/sample:contig00005_1 (length 420)
+doc/prokka_out/sample:contig00005_2 (length 134)
+doc/prokka_out/sample:contig00005_3 (length 247)
+doc/prokka_out/sample:contig00006 (length 1046)
+doc/prokka_out/sample:contig00006_1 (length 68)
+doc/prokka_out/sample:contig00006_2 (length 165)
+doc/prokka_out/sample:contig00007 (length 816)
+doc/prokka_out/sample:contig00007_1 (length 55)
+doc/prokka_out/sample:contig00008 (length 790)
+doc/prokka_out/sample:contig00008_1 (length 224)
+doc/prokka_out/sample:contig00009 (length 645)
+doc/prokka_out/sample:contig00009_1 (length 79)
+doc/prokka_out/sample:contig00010 (length 223)
+doc/prokka_out/sample:contig00011 (length 203)
+doc/prokka_out/sample:contig00012 (length 197)
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::12 Molinfos are missing field technique
+doc/prokka_out/sample:contig00001 (length 73132)
+doc/prokka_out/sample:contig00002 (length 58878)
+doc/prokka_out/sample:contig00003 (length 35158)
+doc/prokka_out/sample:contig00004 (length 5981)
+doc/prokka_out/sample:contig00005 (length 3843)
+doc/prokka_out/sample:contig00006 (length 1046)
+doc/prokka_out/sample:contig00007 (length 816)
+doc/prokka_out/sample:contig00008 (length 790)
+doc/prokka_out/sample:contig00009 (length 645)
+doc/prokka_out/sample:contig00010 (length 223)
+doc/prokka_out/sample:contig00011 (length 203)
+doc/prokka_out/sample:contig00012 (length 197)
+

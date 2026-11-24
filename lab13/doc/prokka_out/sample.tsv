@@ -1,0 +1,152 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+EIHNLLIJ_00001	CDS	957	phnD2		COG3221	putative ABC transporter phosphonate/phosphite binding protein PhnD2
+EIHNLLIJ_00002	CDS	774	glnQ			Glutamine transport ATP-binding protein GlnQ
+EIHNLLIJ_00003	CDS	801	phnE_1		COG3639	Phosphate-import permease protein PhnE
+EIHNLLIJ_00004	CDS	816	phnE_2		COG3639	Phosphate-import permease protein PhnE
+EIHNLLIJ_00005	CDS	1179	deoB	5.4.2.7		Phosphopentomutase
+EIHNLLIJ_00006	CDS	663	deoC1	4.1.2.4		Deoxyribose-phosphate aldolase 1
+EIHNLLIJ_00007	CDS	1359	tet(38)			tetracycline efflux MFS transporter Tet(38)
+EIHNLLIJ_00008	CDS	708	deoD	2.4.2.1	COG0813	Purine nucleoside phosphorylase DeoD-type
+EIHNLLIJ_00009	CDS	741				hypothetical protein
+EIHNLLIJ_00010	CDS	666				hypothetical protein
+EIHNLLIJ_00011	CDS	600	sodM	1.15.1.1	COG0605	Superoxide dismutase [Mn/Fe] 2
+EIHNLLIJ_00012	CDS	1431				hypothetical protein
+EIHNLLIJ_00013	CDS	1239				hypothetical protein
+EIHNLLIJ_00014	CDS	1167	wclR	2.4.1.343		UDP-Gal:alpha-D-GlcNAc-diphosphoundecaprenol alpha-1,3-galactosyltransferase
+EIHNLLIJ_00015	CDS	690				hypothetical protein
+EIHNLLIJ_00016	CDS	972	wcdB	5.1.3.45	COG0451	UDP-N-acetyl-alpha-D-glucosaminouronate 4-epimerase
+EIHNLLIJ_00017	CDS	777	butA	1.1.1.304		Diacetyl reductase [(S)-acetoin forming]
+EIHNLLIJ_00018	CDS	627				hypothetical protein
+EIHNLLIJ_00019	CDS	765	sbnI	2.7.1.225	COG1475	ATP-dependent L-serine kinase SbnI
+EIHNLLIJ_00020	CDS	1203	sbnH	4.1.1.117	COG0019	2-[(L-alanin-3-ylcarbamoyl)methyl]-2-hydroxybutanedioate decarboxylase
+EIHNLLIJ_00021	CDS	777	garL	4.1.2.20		5-keto-4-deoxy-D-glucarate aldolase
+EIHNLLIJ_00022	CDS	3495				hypothetical protein
+EIHNLLIJ_00023	CDS	1257	sbnD		COG2814	Staphyloferrin B transporter
+EIHNLLIJ_00024	CDS	1755	sbnC	6.3.2.56	COG4264	Staphyloferrin B synthase
+EIHNLLIJ_00025	CDS	1011	sbnB	1.5.1.51	COG2423	N-((2S)-2-amino-2-carboxyethyl)-L-glutamate dehydrogenase
+EIHNLLIJ_00026	CDS	981	sbnA	2.5.1.140	COG0031	N-(2-amino-2-carboxyethyl)-L-glutamate synthase
+EIHNLLIJ_00027	CDS	888	yfiY		COG0614	putative siderophore-binding lipoprotein YfiY
+EIHNLLIJ_00028	CDS	996	yfiZ		COG0609	putative siderophore transport system permease protein YfiZ
+EIHNLLIJ_00029	CDS	999	yfhA		COG0609	putative siderophore transport system permease protein YfhA
+EIHNLLIJ_00030	CDS	753	sarS			HTH-type transcriptional regulator SarS
+EIHNLLIJ_00031	CDS	1152				hypothetical protein
+EIHNLLIJ_00032	CDS	1536	yfkN		COG0737	Trifunctional nucleotide phosphoesterase protein YfkN
+EIHNLLIJ_00033	CDS	1206				hypothetical protein
+EIHNLLIJ_00034	CDS	558	epsL	2.-.-.-	COG2148	putative sugar transferase EpsL
+EIHNLLIJ_00035	CDS	888	fcl	1.1.1.271		GDP-L-fucose synthase
+EIHNLLIJ_00036	CDS	1263		1.1.1.336		UDP-N-acetyl-D-mannosamine dehydrogenase
+EIHNLLIJ_00037	CDS	1176	mnaA	5.1.3.14	COG0381	UDP-N-acetylglucosamine 2-epimerase
+EIHNLLIJ_00038	CDS	327	isdI	1.14.99.48	COG2329	Heme oxygenase (staphylobilin-producing) 2
+EIHNLLIJ_00039	CDS	384	ybaN		COG2832	Inner membrane protein YbaN
+EIHNLLIJ_00040	CDS	1488	aldA	1.2.1.3		Putative aldehyde dehydrogenase AldA
+EIHNLLIJ_00041	CDS	960	czcD		COG1230	Cadmium, cobalt and zinc/H(+)-K(+) antiporter
+EIHNLLIJ_00042	CDS	204				hypothetical protein
+EIHNLLIJ_00043	CDS	513				hypothetical protein
+EIHNLLIJ_00044	CDS	741	nrtD	7.3.2.4	COG1116	Nitrate import ATP-binding protein NrtD
+EIHNLLIJ_00045	CDS	975				hypothetical protein
+EIHNLLIJ_00046	CDS	762	ssuC		COG0600	Putative aliphatic sulfonates transport permease protein SsuC
+EIHNLLIJ_00047	CDS	1035				hypothetical protein
+EIHNLLIJ_00048	CDS	360				hypothetical protein
+EIHNLLIJ_00049	CDS	1176		1.17.1.9		Formate dehydrogenase
+EIHNLLIJ_00050	CDS	1104				hypothetical protein
+EIHNLLIJ_00051	CDS	7179	tycC			Tyrocidine synthase 3
+EIHNLLIJ_00052	CDS	645				hypothetical protein
+EIHNLLIJ_00053	CDS	495	yagU		COG3477	Inner membrane protein YagU
+EIHNLLIJ_00054	CDS	771	argB	2.7.2.8		Acetylglutamate kinase
+EIHNLLIJ_00055	CDS	1242	argJ			Arginine biosynthesis bifunctional protein ArgJ
+EIHNLLIJ_00056	CDS	1035	argC	1.2.1.38		N-acetyl-gamma-glutamyl-phosphate reductase
+EIHNLLIJ_00057	CDS	1185	rocD2	2.6.1.13		Ornithine aminotransferase 2
+EIHNLLIJ_00058	CDS	1326	brnQ		COG1114	Branched-chain amino acid permease BrnQ
+EIHNLLIJ_00059	CDS	558	yecD	3.-.-.-	COG1335	Isochorismatase family protein YecD
+EIHNLLIJ_00060	CDS	744	ugpQ	3.1.4.46	COG0584	Glycerophosphodiester phosphodiesterase, cytoplasmic
+EIHNLLIJ_00061	CDS	429				hypothetical protein
+EIHNLLIJ_00062	CDS	2007	mecA			PBP2a family beta-lactam-resistant peptidoglycan transpeptidase MecA
+EIHNLLIJ_00063	CDS	1692	mecR1			beta-lactam sensor/signal transducer MecR1
+EIHNLLIJ_00064	CDS	372	mecI			Methicillin resistance regulatory protein MecI
+EIHNLLIJ_00065	CDS	1110	nagC		COG1846	DNA-binding transcriptional dual regulator NagC
+EIHNLLIJ_00066	CDS	306	glpE_1	2.8.1.1		Thiosulfate sulfurtransferase GlpE
+EIHNLLIJ_00067	CDS	939	gloB	3.1.2.6		Hydroxyacylglutathione hydrolase
+EIHNLLIJ_00068	CDS	1065	glpE_2	2.8.1.1		Thiosulfate sulfurtransferase GlpE
+EIHNLLIJ_00069	CDS	261				hypothetical protein
+EIHNLLIJ_00070	CDS	630				hypothetical protein
+EIHNLLIJ_00071	CDS	660				hypothetical protein
+EIHNLLIJ_00072	CDS	2415	cadA	7.2.2.21		Cadmium-transporting ATPase
+EIHNLLIJ_00073	CDS	366	cadC			Cadmium resistance transcriptional regulatory protein CadC
+EIHNLLIJ_00074	CDS	378				hypothetical protein
+EIHNLLIJ_00075	CDS	1893	xerC			Tyrosine recombinase XerC
+EIHNLLIJ_00076	CDS	324				hypothetical protein
+EIHNLLIJ_00077	CDS	207				hypothetical protein
+EIHNLLIJ_00078	CDS	522				hypothetical protein
+EIHNLLIJ_00079	CDS	312				hypothetical protein
+EIHNLLIJ_00080	CDS	90				hypothetical protein
+EIHNLLIJ_00081	CDS	351				hypothetical protein
+EIHNLLIJ_00082	CDS	1629				hypothetical protein
+EIHNLLIJ_00083	CDS	1347				hypothetical protein
+EIHNLLIJ_00084	CDS	276				hypothetical protein
+EIHNLLIJ_00085	CDS	1788				hypothetical protein
+EIHNLLIJ_00086	CDS	288				hypothetical protein
+EIHNLLIJ_00087	CDS	1032				hypothetical protein
+EIHNLLIJ_00088	CDS	573				hypothetical protein
+EIHNLLIJ_00089	CDS	1701				hypothetical protein
+EIHNLLIJ_00090	CDS	1041	mcrC		COG4268	Type IV methyl-directed restriction enzyme EcoKMcrBC
+EIHNLLIJ_00091	CDS	159				hypothetical protein
+EIHNLLIJ_00092	CDS	972		4.1.1.103	COG2159	Gamma-resorcylate decarboxylase
+EIHNLLIJ_00093	CDS	372				hypothetical protein
+EIHNLLIJ_00094	CDS	1392	farB			Fatty acid resistance protein FarB
+EIHNLLIJ_00095	CDS	204				hypothetical protein
+EIHNLLIJ_00096	CDS	366				hypothetical protein
+EIHNLLIJ_00097	CDS	576				hypothetical protein
+EIHNLLIJ_00098	CDS	474				hypothetical protein
+EIHNLLIJ_00099	CDS	987	dus	1.3.1.-		putative tRNA-dihydrouridine synthase
+EIHNLLIJ_00100	CDS	297				hypothetical protein
+EIHNLLIJ_00101	CDS	603				hypothetical protein
+EIHNLLIJ_00102	CDS	3153				hypothetical protein
+EIHNLLIJ_00103	CDS	483				hypothetical protein
+EIHNLLIJ_00104	CDS	987	plc	4.6.1.13	COG0823	1-phosphatidylinositol phosphodiesterase
+EIHNLLIJ_00105	CDS	768				putative lipoprotein
+EIHNLLIJ_00106	CDS	2238	rhaS			HTH-type transcriptional activator RhaS
+EIHNLLIJ_00107	CDS	1179	sndA	3.5.1.-	COG1473	N-acetyl-L-cysteine deacetylase
+EIHNLLIJ_00108	CDS	1389	norB		COG0477	Quinolone resistance protein NorB
+EIHNLLIJ_00109	CDS	1668				hypothetical protein
+EIHNLLIJ_00110	CDS	1776		4.2.1.53	COG4716	Oleate hydratase
+EIHNLLIJ_00111	CDS	474				hypothetical protein
+EIHNLLIJ_00112	CDS	1593	lctP		COG1620	L-lactate permease
+EIHNLLIJ_00113	CDS	531	spa			Immunoglobulin G-binding protein A
+EIHNLLIJ_00114	CDS	1335	dnaA	3.6.4.-	COG0593	Chromosomal replication initiator protein DnaA
+EIHNLLIJ_00115	CDS	1134	dnaN			Beta sliding clamp
+EIHNLLIJ_00116	CDS	237				hypothetical protein
+EIHNLLIJ_00117	CDS	1113	recF		COG1195	DNA replication and repair protein RecF
+EIHNLLIJ_00118	CDS	1935	gyrB			DNA topoisomerase (ATP-hydrolyzing) subunit B GyrB
+EIHNLLIJ_00119	CDS	2661	gyrA			DNA gyrase subunit A GyrA
+EIHNLLIJ_00120	CDS	813	nnrD	4.2.1.136	COG0063	ADP-dependent (S)-NAD(P)H-hydrate dehydratase
+EIHNLLIJ_00121	CDS	1515	hutH	4.3.1.3		Histidine ammonia-lyase
+EIHNLLIJ_00122	CDS	1287	serS	6.1.1.11	COG0172	Serine--tRNA ligase
+EIHNLLIJ_00123	CDS	696				hypothetical protein
+EIHNLLIJ_00124	CDS	330				hypothetical protein
+EIHNLLIJ_00125	CDS	969	metXA	2.3.1.31	COG2021	Homoserine O-acetyltransferase
+EIHNLLIJ_00126	CDS	924				hypothetical protein
+EIHNLLIJ_00127	CDS	1968	gdpP			cyclic-di-AMP phosphodiesterase GdpP
+EIHNLLIJ_00128	CDS	447	rplI			Large ribosomal subunit protein bL9
+EIHNLLIJ_00129	CDS	1401	dnaB	5.6.2.3		Replicative DNA helicase DnaB
+EIHNLLIJ_00130	CDS	1284	purA	6.3.4.4		Adenylosuccinate synthetase
+EIHNLLIJ_00131	tRNA	75				tRNA-Glu(ttc)
+EIHNLLIJ_00132	tRNA	73				tRNA-Asp(gtc)
+EIHNLLIJ_00133	CDS	702	walR		COG0745	Transcriptional regulatory protein WalR
+EIHNLLIJ_00134	CDS	1827	walK			cell wall metabolism sensor histidine kinase WalK
+EIHNLLIJ_00135	CDS	1335				hypothetical protein
+EIHNLLIJ_00136	CDS	789	yycI		COG4853	Two-component system WalR/WalK regulatory protein YycI
+EIHNLLIJ_00137	CDS	792	yycJ	3.1.11.-	COG1235	Exodeoxyribonuclease YycJ
+EIHNLLIJ_00138	CDS	2319				hypothetical protein
+EIHNLLIJ_00139	CDS	480	rlmH	2.1.1.177		Ribosomal RNA large subunit methyltransferase H
+EIHNLLIJ_00140	CDS	1251				hypothetical protein
+EIHNLLIJ_00141	CDS	1641	ipdC	4.1.1.74	COG3961	Indole-3-pyruvate decarboxylase
+EIHNLLIJ_00142	CDS	135				hypothetical protein
+EIHNLLIJ_00143	CDS	2046	ptsG	2.7.1.199		PTS system glucose-specific EIICBA component
+EIHNLLIJ_00144	CDS	1263				hypothetical protein
+EIHNLLIJ_00145	CDS	405	ble			Bleomycin resistance protein
+EIHNLLIJ_00146	CDS	744	knt	2.7.7.-		Aminoglycoside nucleotidyltransferase (4')
+EIHNLLIJ_00147	CDS	207				hypothetical protein
+EIHNLLIJ_00148	CDS	498				hypothetical protein
+EIHNLLIJ_00149	CDS	168				hypothetical protein
+EIHNLLIJ_00150	CDS	675				IS6 family transposase IS431mec
+EIHNLLIJ_00151	CDS	240				hypothetical protein

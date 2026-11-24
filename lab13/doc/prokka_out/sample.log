@@ -1,0 +1,138 @@
+[03:12:24] This is prokka 1.15.6
+[03:12:24] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[03:12:24] Homepage is https://github.com/tseemann/prokka
+[03:12:24] Local time is Tue Nov 24 03:12:24 2026
+[03:12:24] You are vscode
+[03:12:24] Operating system is linux
+[03:12:24] You have BioPerl 1.7.8
+[03:12:24] System has 4 cores.
+[03:12:24] Will use maximum of 4 cores.
+[03:12:24] Annotating as >>> Bacteria <<<
+[03:12:24] Generating locus_tag from 'data/contigs.fa' contents.
+[03:12:24] Setting --locustag EIHNLLIJ from MD5 e21755239a7e0d0a7ec1a7e915e3148e
+[03:12:24] Creating new output folder: doc/prokka_out
+[03:12:24] Running: mkdir -p doc\/prokka_out
+[03:12:24] Using filename prefix: sample.XXX
+[03:12:24] Setting HMMER_NCPU=1
+[03:12:24] Writing log to: doc/prokka_out/sample.log
+[03:12:24] Command: /opt/conda/envs/annotation/bin/prokka --outdir doc/prokka_out --prefix sample --cpus 4 data/contigs.fa
+[03:12:24] Looking for 'aragorn' - found /opt/conda/envs/annotation/bin/aragorn
+[03:12:24] Determined aragorn version is v1.2 from 'ARAGORN v1.2.41 Dean Laslett'
+[03:12:24] Looking for 'barrnap' - found /opt/conda/envs/annotation/bin/barrnap
+[03:12:24] Determined barrnap version is v0.9 from 'barrnap 0.9'
+[03:12:24] Looking for 'blastp' - found /opt/conda/envs/annotation/bin/blastp
+[03:12:29] Determined blastp version is v2.16 from 'blastp: 2.16.0+'
+[03:12:29] Looking for 'cmpress' - found /opt/conda/envs/annotation/bin/cmpress
+[03:12:29] Determined cmpress version is v1.1 from '# INFERNAL 1.1.5 (Sep 2023)'
+[03:12:29] Looking for 'cmscan' - found /opt/conda/envs/annotation/bin/cmscan
+[03:12:29] Determined cmscan version is v1.1 from '# INFERNAL 1.1.5 (Sep 2023)'
+[03:12:29] Looking for 'egrep' - found /usr/bin/egrep
+[03:12:29] Looking for 'find' - found /usr/bin/find
+[03:12:29] Looking for 'grep' - found /usr/bin/grep
+[03:12:29] Looking for 'hmmpress' - found /opt/conda/envs/annotation/bin/hmmpress
+[03:12:29] Determined hmmpress version is v3.4 from '# HMMER 3.4 (Aug 2023); http://hmmer.org/'
+[03:12:29] Looking for 'hmmscan' - found /opt/conda/envs/annotation/bin/hmmscan
+[03:12:29] Determined hmmscan version is v3.4 from '# HMMER 3.4 (Aug 2023); http://hmmer.org/'
+[03:12:29] Looking for 'java' - found /opt/conda/envs/annotation/bin/java
+[03:12:29] Looking for 'makeblastdb' - found /opt/conda/envs/annotation/bin/makeblastdb
+[03:12:30] Determined makeblastdb version is v2.16 from 'makeblastdb: 2.16.0+'
+[03:12:30] Looking for 'minced' - found /opt/conda/envs/annotation/bin/minced
+[03:12:32] Determined minced version is v4.2 from 'minced 0.4.2'
+[03:12:32] Looking for 'parallel' - found /opt/conda/envs/annotation/bin/parallel
+[03:12:33] Determined parallel version is 20260722 from 'GNU parallel 20260722'
+[03:12:33] Looking for 'prodigal' - found /opt/conda/envs/annotation/bin/prodigal
+[03:12:33] Determined prodigal version is v2.6 from 'Prodigal V2.6.3: February, 2016'
+[03:12:33] Looking for 'prokka-genbank_to_fasta_db' - found /opt/conda/envs/annotation/bin/prokka-genbank_to_fasta_db
+[03:12:33] Looking for 'sed' - found /usr/bin/sed
+[03:12:33] Looking for 'tbl2asn' - found /opt/conda/envs/annotation/bin/tbl2asn
+[03:12:33] Determined tbl2asn version is v25.7 from 'tbl2asn 25.7   arguments:'
+[03:12:33] Using genetic code table 11.
+[03:12:33] Loading and checking input file: data/contigs.fa
+[03:12:33] Wrote 12 contigs totalling 180912 bp.
+[03:12:33] Predicting tRNAs and tmRNAs
+[03:12:33] Running: aragorn -l -gc11  -w doc\/prokka_out\/sample\.fna
+[03:12:33] 1 tRNA-Glu [23608,23682] 34 (ttc)
+[03:12:33] 2 tRNA-Asp [23690,23762] 34 (gtc)
+[03:12:33] Found 2 tRNAs
+[03:12:33] Predicting Ribosomal RNAs
+[03:12:33] Running Barrnap with 4 threads
+[03:12:34] Found 0 rRNAs
+[03:12:34] Skipping ncRNA search, enable with --rfam if desired.
+[03:12:34] Total of 2 tRNA + rRNA features
+[03:12:34] Searching for CRISPR repeats
+[03:12:35] Found 0 CRISPRs
+[03:12:35] Predicting coding sequences
+[03:12:35] Contigs total 180912 bp, so using single mode
+[03:12:35] Running: prodigal -i doc\/prokka_out\/sample\.fna -c -m -g 11 -p single -f sco -q
+[03:12:35] Found 149 CDS
+[03:12:35] Connecting features back to sequences
+[03:12:35] Not using genus-specific database. Try --usegenus to enable it.
+[03:12:35] Annotating CDS, please be patient.
+[03:12:35] Will use 4 CPUs for similarity searching.
+[03:12:35] There are still 149 unannotated CDS left (started with 149)
+[03:12:35] Will use blast to search against /opt/conda/envs/annotation/db/kingdom/Bacteria/IS with 4 CPUs
+[03:12:35] Running: cat doc\/prokka_out\/sample\.IS\.tmp\.2495\.faa | parallel --gnu --plain -j 4 --block 6339 --recstart '>' --pipe blastp -query - -db /opt/conda/envs/annotation/db/kingdom/Bacteria/IS -evalue 1e-30 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > doc\/prokka_out\/sample\.IS\.tmp\.2495\.blast 2> /dev/null
+[03:12:37] Deleting unwanted file: doc/prokka_out/sample.IS.tmp.2495.faa
+[03:12:37] Deleting unwanted file: doc/prokka_out/sample.IS.tmp.2495.blast
+[03:12:37] There are still 148 unannotated CDS left (started with 149)
+[03:12:37] Will use blast to search against /opt/conda/envs/annotation/db/kingdom/Bacteria/AMR with 4 CPUs
+[03:12:37] Running: cat doc\/prokka_out\/sample\.AMR\.tmp\.2495\.faa | parallel --gnu --plain -j 4 --block 6311 --recstart '>' --pipe blastp -query - -db /opt/conda/envs/annotation/db/kingdom/Bacteria/AMR -evalue 1e-300 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > doc\/prokka_out\/sample\.AMR\.tmp\.2495\.blast 2> /dev/null
+[03:12:40] Deleting unwanted file: doc/prokka_out/sample.AMR.tmp.2495.faa
+[03:12:40] Deleting unwanted file: doc/prokka_out/sample.AMR.tmp.2495.blast
+[03:12:40] There are still 141 unannotated CDS left (started with 149)
+[03:12:40] Will use blast to search against /opt/conda/envs/annotation/db/kingdom/Bacteria/sprot with 4 CPUs
+[03:12:40] Running: cat doc\/prokka_out\/sample\.sprot\.tmp\.2495\.faa | parallel --gnu --plain -j 4 --block 5746 --recstart '>' --pipe blastp -query - -db /opt/conda/envs/annotation/db/kingdom/Bacteria/sprot -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > doc\/prokka_out\/sample\.sprot\.tmp\.2495\.blast 2> /dev/null
+[03:12:45] Modify product: Uncharacterized sugar transferase EpsL => putative sugar transferase EpsL
+[03:12:45] Modify product: Probable siderophore-binding lipoprotein YfiY => putative siderophore-binding lipoprotein YfiY
+[03:12:45] Modify product: Probable siderophore transport system permease protein YfiZ => putative siderophore transport system permease protein YfiZ
+[03:12:45] Modify product: Probable siderophore transport system permease protein YfhA => putative siderophore transport system permease protein YfhA
+[03:12:45] Modify product: Probable ABC transporter phosphonate/phosphite binding protein PhnD2 => putative ABC transporter phosphonate/phosphite binding protein PhnD2
+[03:12:45] Modify product: Probable tRNA-dihydrouridine synthase => putative tRNA-dihydrouridine synthase
+[03:12:45] Modify product: Uncharacterized lipoprotein SAOUHSC_00053 => putative lipoprotein
+[03:12:45] Cleaned 7 /product names
+[03:12:45] Deleting unwanted file: doc/prokka_out/sample.sprot.tmp.2495.faa
+[03:12:45] Deleting unwanted file: doc/prokka_out/sample.sprot.tmp.2495.blast
+[03:12:45] There are still 66 unannotated CDS left (started with 149)
+[03:12:45] Will use hmmer3 to search against /opt/conda/envs/annotation/db/hmm/HAMAP.hmm with 4 CPUs
+[03:12:45] Running: cat doc\/prokka_out\/sample\.HAMAP\.hmm\.tmp\.2495\.faa | parallel --gnu --plain -j 4 --block 2308 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-09 --cpu 1 /opt/conda/envs/annotation/db/hmm/HAMAP.hmm /dev/stdin > doc\/prokka_out\/sample\.HAMAP\.hmm\.tmp\.2495\.hmmer3 2> /dev/null
+[03:12:56] Deleting unwanted file: doc/prokka_out/sample.HAMAP.hmm.tmp.2495.faa
+[03:12:56] Deleting unwanted file: doc/prokka_out/sample.HAMAP.hmm.tmp.2495.hmmer3
+[03:12:56] Labelling remaining 60 proteins as 'hypothetical protein'
+[03:12:56] Possible /pseudo 'Phosphate-import permease protein PhnE' at contig00001 position 4150
+[03:12:56] Found 81 unique /gene codes.
+[03:12:56] Fixed 2 duplicate /gene - phnE_1 phnE_2
+[03:12:56] Fixed 2 duplicate /gene - glpE_1 glpE_2
+[03:12:56] Fixed 2 colliding /gene names.
+[03:12:56] Adding /locus_tag identifiers
+[03:12:56] Assigned 151 locus_tags to CDS and RNA features.
+[03:12:56] Writing outputs to doc/prokka_out/
+[03:12:56] Generating annotation statistics file
+[03:12:56] Generating Genbank and Sequin files
+[03:12:56] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka' -Z doc\/prokka_out\/sample\.err -i doc\/prokka_out\/sample\.fsa 2> /dev/null
+[03:12:58] Deleting unwanted file: doc/prokka_out/errorsummary.val
+[03:12:58] Deleting unwanted file: doc/prokka_out/sample.dr
+[03:12:58] Deleting unwanted file: doc/prokka_out/sample.fixedproducts
+[03:12:58] Deleting unwanted file: doc/prokka_out/sample.ecn
+[03:12:58] Deleting unwanted file: doc/prokka_out/sample.val
+[03:12:58] Repairing broken .GBK output that tbl2asn produces...
+[03:12:58] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < doc\/prokka_out\/sample\.gbf > doc\/prokka_out\/sample\.gbk
+[03:12:58] Deleting unwanted file: doc/prokka_out/sample.gbf
+[03:12:58] Output files:
+[03:12:58] doc/prokka_out/sample.fsa
+[03:12:58] doc/prokka_out/sample.tsv
+[03:12:58] doc/prokka_out/sample.ffn
+[03:12:58] doc/prokka_out/sample.faa
+[03:12:58] doc/prokka_out/sample.fna
+[03:12:58] doc/prokka_out/sample.tbl
+[03:12:58] doc/prokka_out/sample.gff
+[03:12:58] doc/prokka_out/sample.txt
+[03:12:58] doc/prokka_out/sample.gbk
+[03:12:58] doc/prokka_out/sample.err
+[03:12:58] doc/prokka_out/sample.log
+[03:12:58] doc/prokka_out/sample.sqn
+[03:12:58] Annotation finished successfully.
+[03:12:58] Walltime used: 0.57 minutes
+[03:12:58] If you use this result please cite the Prokka paper:
+[03:12:58] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[03:12:58] Type 'prokka --citation' for more details.
+[03:12:58] Thank you, come again.
